@@ -1,4 +1,6 @@
-<update><version>1.0.97</version><url>https://raw.githubusercontent.com/datlxps013977/dynotest-updates/main/releases/v97/Dynotest_Update.exe</url><sha256>9cd519d72d071cce3087ea6cbaaca4b018f2256dedcb3e3a8f74d41df0be8722</sha256><size>20395520</size><notes>• Lần nâng lên bản sửa này: đóng phần mềm và chạy file cập nhật trực tiếp để bỏ qua bước ghi JSON của bản cũ.
-• Bỏ bước tự lưu cài đặt ra JSON khi bấm cập nhật phần mềm.
-• Ngăn các sự kiện đóng cửa sổ ghi lại JSON trong lúc thoát để cập nhật.
-• Chỉ thay file chương trình; giữ nguyên JSON cài đặt và gear đang có.</notes></update>
+<update><version>1.0.98</version><url>https://raw.githubusercontent.com/datlxps013977/dynotest-updates/main/releases/v98/Dynotest_Update.exe</url><sha256>f146b7313ed474d11dbc01f8efc7dde10e086d5bb2234b060c2559e2d16ab40b</sha256><size>20393472</size><notes>ver1.0.98
+- Cửa sổ chính chỉ còn AFR CHART; bỏ POWER &amp; TORQUE, SPEED, TIME và COMPARE cùng luồng vẽ của các tab này.
+- Giới hạn cập nhật hover/nhãn MAX khi live dyno, tránh dựng lại toàn bộ overlay theo mỗi frame khi con trỏ nằm trên chart.
+- Timer vẽ dyno nhường ưu tiên cho việc đọc dữ liệu và thao tác giao diện; giữ nhịp yêu cầu 16 ms, không thêm nội suy.
+- Giữ nguyên thuật toán đo, dữ liệu RUN, Auto Tune và các cửa sổ dyno/CVT/gear/giả lập.
+- Cập nhật giữ nguyên JSON cài đặt và gear đang có như v97.</notes></update>
