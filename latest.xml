@@ -1,6 +1,6 @@
-<update><version>1.0.98</version><url>https://raw.githubusercontent.com/datlxps013977/dynotest-updates/main/releases/v98/Dynotest_Update.exe</url><sha256>f146b7313ed474d11dbc01f8efc7dde10e086d5bb2234b060c2559e2d16ab40b</sha256><size>20393472</size><notes>ver1.0.98
-- Cửa sổ chính chỉ còn AFR CHART; bỏ POWER &amp; TORQUE, SPEED, TIME và COMPARE cùng luồng vẽ của các tab này.
-- Giới hạn cập nhật hover/nhãn MAX khi live dyno, tránh dựng lại toàn bộ overlay theo mỗi frame khi con trỏ nằm trên chart.
-- Timer vẽ dyno nhường ưu tiên cho việc đọc dữ liệu và thao tác giao diện; giữ nhịp yêu cầu 16 ms, không thêm nội suy.
-- Giữ nguyên thuật toán đo, dữ liệu RUN, Auto Tune và các cửa sổ dyno/CVT/gear/giả lập.
-- Cập nhật giữ nguyên JSON cài đặt và gear đang có như v97.</notes></update>
+<update><version>1.0.99</version><url>https://raw.githubusercontent.com/datlxps013977/dynotest-updates/main/releases/v99/Dynotest_Update.exe</url><sha256>0b2e761bae8001ae81787f045685659e8c53bbe11a415e15f9c255c08d8905c8</sha256><size>20392960</size><notes>ver1.0.99
+- TPS về 0%: ngưng học ngay; bắt đầu lại khi RPM ổn định đủ 0,5 giây.
+- Vào học IDLE: biên độ RPM tối đa 200 RPM hoặc 10% trung bình (lấy mức lớn hơn), độ dốc tối đa 200 RPM/giây.
+- Giữ học IDLE: biên độ tối đa 300 RPM hoặc 15%, độ dốc 400 RPM/giây; vượt liên tục 0,2 giây mới ngưng.
+- Mở ga trở lại học ngay; dữ liệu RPM/TPS quá cũ hoặc không hợp lệ vẫn ngưng ngay.
+- Giữ nguyên cách tính % AFR, Auto Execute, live dyno và JSON cài đặt/gear.</notes></update>
