@@ -1,5 +1,4 @@
-<update><version>1.0.95</version><url>https://raw.githubusercontent.com/datlxps013977/dynotest-updates/main/releases/v95/Dynotest_Update.exe</url><sha256>536808254d646263cb205c0a84583c4edcacf14e697a4d94083e5276ba82f6f8</sha256><size>20393472</size><notes>• Xem chi tiết thay đổi trước khi cập nhật; chỉ tải và cài sau khi bấm Xác nhận cập nhật.
-• Có nút Hủy và cuộn trong bảng chi tiết nếu nội dung dài.
-• In Dyno Chart trên A4 nằm ngang, gồm RPM, Speed và Time.
-• Bỏ danh sách RUN phía dưới bản in; vẫn vẽ đủ các RUN đang bật.
-• Thêm icon máy in cạnh chữ PRINT.</notes></update>
+<update><version>1.0.96</version><url>https://raw.githubusercontent.com/datlxps013977/dynotest-updates/main/releases/v96/Dynotest_Update.exe</url><sha256>79974f88f01171cd254a8cf7b7c8e91064d1eb70ff664ecb2c5a1e84c067bd81</sha256><size>20395520</size><notes>• Đồng bộ lưới nét đứt cyan của cả ba biểu đồ in RPM, Speed và Time với Dyno Chart.
+• Khôi phục nhãn MAX HP @ và MAX TQ @ cho từng RUN trên cả ba biểu đồ.
+• Giá trị nhãn lấy cùng cách tính MAX đang dùng trong phần mềm; đơn vị theo trục RPM, km/h hoặc giây.
+• Giữ bản in A4 ngang, màu line, số RUN đã chọn và thang Y hiện tại.</notes></update>
