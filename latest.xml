@@ -1,6 +1,6 @@
-<update><version>1.0.99</version><url>https://raw.githubusercontent.com/datlxps013977/dynotest-updates/main/releases/v99/Dynotest_Update.exe</url><sha256>0b2e761bae8001ae81787f045685659e8c53bbe11a415e15f9c255c08d8905c8</sha256><size>20392960</size><notes>ver1.0.99
-- TPS về 0%: ngưng học ngay; bắt đầu lại khi RPM ổn định đủ 0,5 giây.
-- Vào học IDLE: biên độ RPM tối đa 200 RPM hoặc 10% trung bình (lấy mức lớn hơn), độ dốc tối đa 200 RPM/giây.
-- Giữ học IDLE: biên độ tối đa 300 RPM hoặc 15%, độ dốc 400 RPM/giây; vượt liên tục 0,2 giây mới ngưng.
-- Mở ga trở lại học ngay; dữ liệu RPM/TPS quá cũ hoặc không hợp lệ vẫn ngưng ngay.
-- Giữ nguyên cách tính % AFR, Auto Execute, live dyno và JSON cài đặt/gear.</notes></update>
+<update><version>1.1.0</version><url>https://raw.githubusercontent.com/datlxps013977/dynotest-updates/main/releases/v100/Dynotest_Update.exe</url><sha256>be10d4ec1f396b6889aaf62ebaee8372fdb3f8ec1db0a9462f7d1a014c7752f7</sha256><size>20393472</size><notes>ver1.1.00 — v100
+- Giữ học AFR ở ga-lăng-ti dao động trong vùng RPM đã xác nhận; tránh ngắt do độ dốc ngắn hạn của bước RPM.
+- Vẫn ngưng ngay khi nhả TPS từ lớn hơn 0 về 0; vào học lại sau cửa sổ ổn định 0,5 giây. Mất dữ liệu hoặc RPM/TPS không hợp lệ vẫn chặn học.
+- Dòng trạng thái đổi thành AUTO TUNE cố định: xanh khi đang ghi % AFR, nâu xám khi ngưng; xem lý do trong tooltip.
+- Bỏ dòng AUTO: TẮT bên dưới công tắc Auto Execute; thông tin chẩn đoán nằm trong tooltip của công tắc.
+- Giữ nguyên cách tính %, Auto Execute, live dyno và JSON cài đặt/gear.</notes></update>
