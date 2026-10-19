@@ -1,6 +1,9 @@
-<update><version>1.1.3</version><url>https://raw.githubusercontent.com/datlxps013977/dynotest-updates/main/releases/v103/Dynotest_Update.exe</url><sha256>745776e7c96b0554b3251c70f4fd786444ea075788718a1fb59e597197d24ef7</sha256><size>20396032</size><notes>ver1.1.03 — v103
-Sửa màn hình khởi động: khung tròn 360 × 360, không kéo dài và không cắt viền.
-Giữ nguyên logo, trạng thái COM và thời gian chờ khởi động.
-Giữ nguyên JSON cài đặt, dữ liệu RUN và các tích hợp ECU.
-Sửa trục X chart AFR khi LIVE: chuyển vùng hiển thị liên tục thay vì nhảy nấc; giữ nguyên mẫu AFR/RPM và smoothing.
-Đo thủ công: bấm đo chỉ chờ; bắt đầu RUN khi rulo tăng tốc trở lại qua ít nhất 3 mẫu, &gt;=100 ms và tăng &gt;=0,2 km/h, đồng thời tốc độ &gt;=5 km/h. Không thay đổi điều kiện dừng đo hay chế độ RPM/SPEED.</notes></update>
+<update><version>1.1.4</version><url>https://raw.githubusercontent.com/datlxps013977/dynotest-updates/main/releases/v104/Dynotest_Update.exe</url><sha256>ebeeb2ea57a16ce141c2dd84852d6b09f041bdc730e00e7d946fc6d6a79da8bc</sha256><size>20405760</size><notes>ver1.1.04 — v104
+Thêm menu Carburetor mở cửa sổ riêng, cùng tông màu main.
+Cây Garanti/Ga 1/Ga 2/Ga 3/Ga cuối: RPM dọc 500–15.000, bước 500, AFR/min/max/số mẫu.
+Kéo chọn dải RPM hoặc chọn từ/đến rồi gán vùng. Mốc trùng chuyển vùng, không tính hai lần và không mất mẫu AFR.
+Chọn vùng để ghi riêng hoặc chọn Tất cả vùng để ghi toàn dải. Phân tích từng vùng với ngưỡng AFR và mức ga thực tế riêng.
+Nhập loại bình, họng, giclơ chính/phụ, kim, phe, số vòng vít. PWK/PE mặc định vít gió; FCR vít xăng; cho sửa.
+Gợi ý khả năng đậm/nhạt theo mạch xăng đã xác nhận; không tự khẳng định lỗi cơ khí từ RPM.
+Giữ nguyên JSON cài đặt và dữ liệu RUN. Cấu hình Carburetor/kết quả giữ trong phiên phần mềm.
+Mạch tham khảo từng vùng: garanti/phụ, phụ, kim, kim, chính; cho đổi theo mức ga thực tế. Phân tích từng vùng riêng; gợi ý chiều vít theo loại đã chọn và hướng thay đổi chiều cao kim. Không coi mốc RPM là độ mở ga.</notes></update>
