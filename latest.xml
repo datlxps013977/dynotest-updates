@@ -1,6 +1,6 @@
-<update><version>1.1.0</version><url>https://raw.githubusercontent.com/datlxps013977/dynotest-updates/main/releases/v100/Dynotest_Update.exe</url><sha256>be10d4ec1f396b6889aaf62ebaee8372fdb3f8ec1db0a9462f7d1a014c7752f7</sha256><size>20393472</size><notes>ver1.1.00 — v100
-- Giữ học AFR ở ga-lăng-ti dao động trong vùng RPM đã xác nhận; tránh ngắt do độ dốc ngắn hạn của bước RPM.
-- Vẫn ngưng ngay khi nhả TPS từ lớn hơn 0 về 0; vào học lại sau cửa sổ ổn định 0,5 giây. Mất dữ liệu hoặc RPM/TPS không hợp lệ vẫn chặn học.
-- Dòng trạng thái đổi thành AUTO TUNE cố định: xanh khi đang ghi % AFR, nâu xám khi ngưng; xem lý do trong tooltip.
-- Bỏ dòng AUTO: TẮT bên dưới công tắc Auto Execute; thông tin chẩn đoán nằm trong tooltip của công tắc.
-- Giữ nguyên cách tính %, Auto Execute, live dyno và JSON cài đặt/gear.</notes></update>
+<update><version>1.1.1</version><url>https://raw.githubusercontent.com/datlxps013977/dynotest-updates/main/releases/v101/Dynotest_Update.exe</url><sha256>248a7b09cbee14db9086c55857daec320c187c87e371be0b000955f85660c81e</sha256><size>20395008</size><notes>ver1.1.01 — v101
+- Thêm lựa chọn Auto Tune ATE V11 riêng, sử dụng bộ ECU Pro 11 11.1.7.2 đã cung cấp.
+- Đọc RPM/TPS và trục READ ALL 30 RPM × 14 TPS; dùng AFR từ Dynotest để tính % như hiện tại.
+- Cầu nối ATE tách riêng theo process; Execute qua Send Current trên map đang chọn và chờ xác nhận.
+- Dùng bộ ATE tích hợp đi kèm trong repo source riêng tư; giữ EXE, AteV11Bridge.dll và các file phụ thuộc cùng thư mục.
+- Giữ nguyên các lựa chọn RedLeo, điều kiện học, live dyno và JSON cài đặt/gear.</notes></update>

@@ -10,7 +10,7 @@ Các bản cũ chưa hỗ trợ kiểm tra trực tuyến cần nâng lên ver1.
 
 ## Tải bản hỗ trợ cập nhật trực tuyến lần đầu
 
-- [Dynotest_Update.exe — ver1.1.0](https://raw.githubusercontent.com/datlxps013977/dynotest-updates/main/releases/v100/Dynotest_Update.exe)
+- [Dynotest_Update.exe — ver1.1.1](https://raw.githubusercontent.com/datlxps013977/dynotest-updates/main/releases/v101/Dynotest_Update.exe)
 - Với v96 trở về trước: đóng phần mềm rồi chạy file cập nhật trực tiếp để bỏ qua bước tự lưu JSON của bản cũ. Từ v97 dùng cập nhật trong Settings bình thường.
 - Nếu chưa cài phần mềm, dùng bộ cài từ repo source riêng tư.
 - Các bản mới hơn sẽ được báo ngay trong Settings sau khi mở lại phần mềm.

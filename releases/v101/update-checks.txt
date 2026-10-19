@@ -1,0 +1,1 @@
+PASS: standalone update EXE, only changed binary replaced, matching DLL untouched, JSON/RUN retained, program reopened.
