@@ -1,9 +1,11 @@
-<update><version>1.1.6</version><url>https://raw.githubusercontent.com/datlxps013977/dynotest-updates/main/releases/v106/Dynotest_Update.exe</url><sha256>b9894ed7f685be8bad7ba131887ce13df384be105676777ba1d3b76d23af78c9</sha256><size>20412928</size><notes>ver1.1.06 — v106
-CARB TUNING theo ảnh tham khảo: 2 khung chính, bảng RPM/AFR và chọn vùng bên trái; AFR/RPM LIVE, thông số bình 2 cột và hướng dẫn tự động bên phải.
-Bảng 30 hàng 500–15.000 RPM bước 500; tự co hàng, không cuộn riêng trong bảng ở 1920×1080.
-Giữ chuột kéo bôi cả 2 cột, thả là chốt. Bấm Tree View hoặc danh sách để gán vùng, đổi màu ngay, không cần Lưu vùng.
-Ngưỡng AFR MIN/MAX riêng từng vùng, mặc định 12–14; đổi vùng/ngưỡng cập nhật kết quả và hướng dẫn tự động.
-Tự nhận mẫu thật khi mở cửa sổ; chọn vùng không lọc mất dữ liệu các vùng khác. Có tạm dừng nhận và xoá kết quả. Không có nút Thử dữ liệu.
-Style tối dùng chung cho nút, input, combobox/popup, Tree View và scrollbar; nhãn in hoa, header main 5 nút đều nhau.
-Giữ nguyên cách bình chọn theo mẫu gốc; có số mẫu nhạt thiểu số để kiểm tra thêm. Không suy ra độ mở ga hoặc kết luận hỏng cơ khí chỉ từ RPM.
-Lưu CarbTuning.json riêng, không đè JSON Dyno. Cấu hình cũ 26 hàng giữ nguyên vùng/ngưỡng, thêm mốc 13.500–15.000 vào Ga cuối khi đọc.</notes></update>
+<update><version>1.1.7</version><url>https://raw.githubusercontent.com/datlxps013977/dynotest-updates/main/releases/v107/Dynotest_Update.exe</url><sha256>2e9eff88a5803d7579e9276f63dc61368a522e4525c2ebe7641f489fb2604ccb</sha256><size>20414976</size><notes>ver1.1.07 — v107
+Carb Tuning không gán sẵn vùng ga theo RPM. Chỉ bôi và bấm vùng mới gán màu; vẫn nhận mẫu AFR ở các RPM chưa gán.
+Giữ các vùng tự chọn đã lưu; bỏ bản đồ mặc định tự gán của bản cũ khi đọc, không ghi đè JSON lúc cập nhật.
+AFR MIN/MAX cao 42, chữ 18 và căn giữa, không che số; chọn vùng để chỉnh ngưỡng của vùng đó.
+Hướng dẫn nằm trong phần vùng đang chọn. Bấm Garanti/Ga 1/Ga 2/Ga 3/Ga cuối để hiện hướng dẫn riêng, không gom tất cả bên phải.
+Giữ style xanh đen/viền gradient đồng bộ main, 30 hàng RPM, kéo bôi và tự cập nhật kết quả.
+Cập nhật giữ nguyên JSON cài đặt Dyno và RUN.
+Kết quả vùng gọn trên một hàng: tên mục + trạng thái, bỏ dòng RPM/cách lấy nhóm. Hướng dẫn bên dưới không có tiêu đề riêng.
+Header dùng lại hoạ tiết và cụm nút cửa sổ Auto Tune: icon vector, kích thước và căn hàng giống nhau.
+Bấm ngoài bảng RPM bỏ viền bôi/focus; bấm Tree View vẫn gán đúng vùng vừa chọn.
+Thêm LƯU PHIÊN / MỞ PHIÊN (.carb.json): lưu thông số bình, vùng ga, MIN/MAX và mẫu AFR theo RPM; mở để xem lại và tạm dừng nhận mẫu mới.</notes></update>
