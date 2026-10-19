@@ -1,6 +1,6 @@
-<update><version>1.1.2</version><url>https://raw.githubusercontent.com/datlxps013977/dynotest-updates/main/releases/v102/Dynotest_Update.exe</url><sha256>fb35b53e5f284be460f9eda7dc2abf8f57e15f228f03f60d275dad51298894fe</sha256><size>20395008</size><notes>ver1.1.02 — v102
-- Thêm lựa chọn Auto Tune ATE V9 cho ECU Pro 9.1X 9.1.2.18 đã cung cấp.
-- Đọc RPM/TPS và trục READ ALL theo V9: 30 cột RPM, 14 hàng TPS, hàng đầu 100%, hàng cuối IDLE.
-- Bridge ATE V9 có kênh kết nối riêng theo process; Execute chỉ ghi map đang hiển thị và chờ Send Current xác nhận.
-- Bộ ATE V9 tích hợp kèm AteV9Bridge.dll, EXE, file config và LngConfig.ini nằm trong repo source riêng tư.
-- Giữ nguyên ATE V11, RedLeo, điều kiện học, live dyno và JSON cài đặt/gear.</notes></update>
+<update><version>1.1.3</version><url>https://raw.githubusercontent.com/datlxps013977/dynotest-updates/main/releases/v103/Dynotest_Update.exe</url><sha256>745776e7c96b0554b3251c70f4fd786444ea075788718a1fb59e597197d24ef7</sha256><size>20396032</size><notes>ver1.1.03 — v103
+Sửa màn hình khởi động: khung tròn 360 × 360, không kéo dài và không cắt viền.
+Giữ nguyên logo, trạng thái COM và thời gian chờ khởi động.
+Giữ nguyên JSON cài đặt, dữ liệu RUN và các tích hợp ECU.
+Sửa trục X chart AFR khi LIVE: chuyển vùng hiển thị liên tục thay vì nhảy nấc; giữ nguyên mẫu AFR/RPM và smoothing.
+Đo thủ công: bấm đo chỉ chờ; bắt đầu RUN khi rulo tăng tốc trở lại qua ít nhất 3 mẫu, &gt;=100 ms và tăng &gt;=0,2 km/h, đồng thời tốc độ &gt;=5 km/h. Không thay đổi điều kiện dừng đo hay chế độ RPM/SPEED.</notes></update>
