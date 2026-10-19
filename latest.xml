@@ -1,9 +1,9 @@
-<update><version>1.1.4</version><url>https://raw.githubusercontent.com/datlxps013977/dynotest-updates/main/releases/v104/Dynotest_Update.exe</url><sha256>ebeeb2ea57a16ce141c2dd84852d6b09f041bdc730e00e7d946fc6d6a79da8bc</sha256><size>20405760</size><notes>ver1.1.04 — v104
-Thêm menu Carburetor mở cửa sổ riêng, cùng tông màu main.
-Cây Garanti/Ga 1/Ga 2/Ga 3/Ga cuối: RPM dọc 500–15.000, bước 500, AFR/min/max/số mẫu.
-Kéo chọn dải RPM hoặc chọn từ/đến rồi gán vùng. Mốc trùng chuyển vùng, không tính hai lần và không mất mẫu AFR.
-Chọn vùng để ghi riêng hoặc chọn Tất cả vùng để ghi toàn dải. Phân tích từng vùng với ngưỡng AFR và mức ga thực tế riêng.
-Nhập loại bình, họng, giclơ chính/phụ, kim, phe, số vòng vít. PWK/PE mặc định vít gió; FCR vít xăng; cho sửa.
-Gợi ý khả năng đậm/nhạt theo mạch xăng đã xác nhận; không tự khẳng định lỗi cơ khí từ RPM.
-Giữ nguyên JSON cài đặt và dữ liệu RUN. Cấu hình Carburetor/kết quả giữ trong phiên phần mềm.
-Mạch tham khảo từng vùng: garanti/phụ, phụ, kim, kim, chính; cho đổi theo mức ga thực tế. Phân tích từng vùng riêng; gợi ý chiều vít theo loại đã chọn và hướng thay đổi chiều cao kim. Không coi mốc RPM là độ mở ga.</notes></update>
+<update><version>1.1.6</version><url>https://raw.githubusercontent.com/datlxps013977/dynotest-updates/main/releases/v106/Dynotest_Update.exe</url><sha256>b9894ed7f685be8bad7ba131887ce13df384be105676777ba1d3b76d23af78c9</sha256><size>20412928</size><notes>ver1.1.06 — v106
+CARB TUNING theo ảnh tham khảo: 2 khung chính, bảng RPM/AFR và chọn vùng bên trái; AFR/RPM LIVE, thông số bình 2 cột và hướng dẫn tự động bên phải.
+Bảng 30 hàng 500–15.000 RPM bước 500; tự co hàng, không cuộn riêng trong bảng ở 1920×1080.
+Giữ chuột kéo bôi cả 2 cột, thả là chốt. Bấm Tree View hoặc danh sách để gán vùng, đổi màu ngay, không cần Lưu vùng.
+Ngưỡng AFR MIN/MAX riêng từng vùng, mặc định 12–14; đổi vùng/ngưỡng cập nhật kết quả và hướng dẫn tự động.
+Tự nhận mẫu thật khi mở cửa sổ; chọn vùng không lọc mất dữ liệu các vùng khác. Có tạm dừng nhận và xoá kết quả. Không có nút Thử dữ liệu.
+Style tối dùng chung cho nút, input, combobox/popup, Tree View và scrollbar; nhãn in hoa, header main 5 nút đều nhau.
+Giữ nguyên cách bình chọn theo mẫu gốc; có số mẫu nhạt thiểu số để kiểm tra thêm. Không suy ra độ mở ga hoặc kết luận hỏng cơ khí chỉ từ RPM.
+Lưu CarbTuning.json riêng, không đè JSON Dyno. Cấu hình cũ 26 hàng giữ nguyên vùng/ngưỡng, thêm mốc 13.500–15.000 vào Ga cuối khi đọc.</notes></update>
