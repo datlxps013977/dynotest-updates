@@ -1,7 +1,7 @@
-<update><version>1.1.8</version><url>https://raw.githubusercontent.com/datlxps013977/dynotest-updates/main/releases/v108/Dynotest_Update.exe</url><sha256>8c6903797bcde998efe5a997aaf6a7c3b05800048115af1f099bf59757430de8</sha256><size>20415488</size><notes>ver1.1.08 — v108
-Sửa combobox Carb Tuning xổ được nhưng không chọn được: bỏ thao tác xoá focus toàn cục khi bấm danh sách.
-Bấm ngoài bảng RPM vẫn bỏ vùng bôi tạm; chọn VÙNG GA từ popup vẫn gán đúng dải vừa bôi.
-Thêm marker chỉ sáng viền cyan theo RPM hiện tại trên bảng RPM/AFR; giữ nguyên nền/màu chữ bên trong và vùng đã gán; mất tín hiệu thì bỏ marker.
-Giữ chức năng lưu/mở phiên, phân tích AFR và JSON cài đặt hiện tại.
-Thêm gợi ý tham khảo theo vùng: giclơ cùng dòng thử ±1 cỡ thương mại, phe kim ±1 nấc, vít gió/vít xăng ±¼ vòng từ số đang nhập. Không đoán số jet hoặc số vòng tối ưu cho mọi loại bình.
-Bấm bất kỳ chỗ nào trong ô combobox (chữ/vùng trống/mũi tên) đều mở danh sách; không chặn thao tác chọn mục.</notes></update>
+<update><version>1.1.9</version><url>https://raw.githubusercontent.com/datlxps013977/dynotest-updates/main/releases/v109/Dynotest_Update.exe</url><sha256>982d4b86f0f032a74855d0ddd8a8591a90877d785974d888934bc3c9ed3757b2</sha256><size>20414976</size><notes>ver1.1.09 — v109
+Áp dụng hàm MovingAverage2 float của BRT vào bước smoothing trước chart cho live và RUN đã lưu.
+Dùng đúng cửa sổ N × (Smoothing + 1) / 200; giữ nguyên TIME, không làm mượt trục thời gian.
+Giữ nguyên công thức tính HP/Torque, lọc dữ liệu thô và thứ tự các mẫu RPM.
+Đồng bộ phần chờ đủ dữ liệu ở đuôi live với cửa sổ smoothing BRT.
+Thay chữ O₂ trên nút OXYGEN màn hình chính bằng icon cảm biến oxy.
+Giữ nguyên JSON cài đặt và dữ liệu RUN khi cập nhật.</notes></update>
