@@ -1,7 +1,5 @@
-<update><version>1.1.10</version><url>https://raw.githubusercontent.com/datlxps013977/dynotest-updates/main/releases/v110/Dynotest_Update.exe</url><sha256>f12ca6f20d93c5e97886796cbfd92f914e786e58623196b71c833410d6f48e9c</sha256><size>20416000</size><notes>ver1.1.10 — v110
-Đồng bộ công thức tính HP/Torque/tốc độ với ChartDyno BRT 1.0.3.0: dùng float và đúng thứ tự phép tính.
-Đồng bộ bán kính, mô-men quán tính rulo, gia tốc góc, tỉ số truyền và chuyển Torque sang HP với BRT.
-Giữ đúng hai lần lọc Torque 20 rồi 2 bằng hàm float BRT, sau đó tính HP và áp dụng smoothing trước chart.
-Chart live và RUN mở lại dùng chung công thức. Đồng hồ dùng chung các phép tính vật lý và hệ số đổi HP.
-BRT dùng khối lượng rulo nguyên kg và phép chia nguyên khối lượng/2; kết quả có thể thay đổi với rulo số kg lẻ.
-Giữ nguyên JSON cài đặt và dữ liệu RUN khi cập nhật.</notes></update>
+<update><version>1.1.11</version><url>https://raw.githubusercontent.com/datlxps013977/dynotest-updates/main/releases/v111/Dynotest_Update.exe</url><sha256>68b683ff4aa00fc59cd4390090a8c658845d8089ea36facaa8359b3339c106c2</sha256><size>20415488</size><notes>ver1.1.11 — v111
+Đổi số Smoothing Value trong cửa sổ DYNO thành combobox 0–10, dùng style nền tối/viền cyan của giao diện chính.
+Chọn mức là lưu SmoothingValue vào JSON hiện tại và cập nhật chart, các giá trị Max và danh sách RUN.
+Dòng mô tả chart tự đổi theo trục X: TIME — theo thời gian, RPM — theo vòng tua, SPEED — theo tốc độ.
+Giữ nguyên công thức BRT của v110, thông số rulo và dữ liệu RUN. Bộ cập nhật không ghi đè JSON cài đặt.</notes></update>
