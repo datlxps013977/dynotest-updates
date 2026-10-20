@@ -1,6 +1,4 @@
-<update><version>1.1.14</version><url>https://raw.githubusercontent.com/datlxps013977/dynotest-updates/main/releases/v114/Dynotest_Update.exe</url><sha256>f0185de0f68de42fa3cc2640e48f0679e807bc8c4d0afab82fd92185c197f9b3</sha256><size>20418048</size><notes>ver1.1.14 — v114
-Thêm cụm RPM | SPEED | THỦ CÔNG liền nhau ở phần ĐO CÔNG SUẤT; chọn chế độ là lưu và dùng ngưỡng tương ứng đang có trong Settings. Không cho đổi giữa lúc đang ARM/đo/lưu RUN.
-Cụm XĂNG CƠ | FI liền nhau, chỉ bo các góc ngoài; cụm chọn cách đo cũng chỉ bo hai đầu.
-Gộp thông số AFR Target / RPM bắt đầu / RPM kết thúc với nút GHI DỮ LIỆU / NGỪNG GHI trong một khung.
-Ẩn MAX HP/MAX TQ và MAX AFR trong lúc live. Kết thúc đo/ghi thì label hiện dần khoảng 0,45 giây, không phát lại hiệu ứng khi zoom/rê chuột.
-Giữ nguyên công thức BRT, điều kiện bắt đầu đo thủ công, JSON cài đặt và RUN khi cập nhật.</notes></update>
+<update><version>1.1.15</version><url>https://raw.githubusercontent.com/datlxps013977/dynotest-updates/main/releases/v115/Dynotest_Update.exe</url><sha256>b2f1ffec5589fba4eeb3315d083e7cd568b1646689190c6ae372c4859eb448d7</sha256><size>20417024</size><notes>ver1.1.15 — v115
+Bỏ hiệu ứng phát sáng của cụm RPM | SPEED | THỦ CÔNG và XĂNG CƠ | FI; chữ dịu hơn, nút đang chọn phân biệt bằng nền và viền nhẹ.
+Tăng khoảng cách giữa cụm chọn cách đo và nút ĐO CÔNG SUẤT từ 7 lên 16 px.
+Giữ nguyên cách đo, công thức BRT, dữ liệu RUN và JSON cài đặt khi cập nhật.</notes></update>
