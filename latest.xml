@@ -1,4 +1,4 @@
-<update><version>1.1.15</version><url>https://raw.githubusercontent.com/datlxps013977/dynotest-updates/main/releases/v115/Dynotest_Update.exe</url><sha256>b2f1ffec5589fba4eeb3315d083e7cd568b1646689190c6ae372c4859eb448d7</sha256><size>20417024</size><notes>ver1.1.15 — v115
-Bỏ hiệu ứng phát sáng của cụm RPM | SPEED | THỦ CÔNG và XĂNG CƠ | FI; chữ dịu hơn, nút đang chọn phân biệt bằng nền và viền nhẹ.
-Tăng khoảng cách giữa cụm chọn cách đo và nút ĐO CÔNG SUẤT từ 7 lên 16 px.
-Giữ nguyên cách đo, công thức BRT, dữ liệu RUN và JSON cài đặt khi cập nhật.</notes></update>
+<update><version>1.1.16</version><url>https://raw.githubusercontent.com/datlxps013977/dynotest-updates/main/releases/v116/Dynotest_Update.exe</url><sha256>0eda19727585247dcbd25be0674a5d16eef5bd0c5afb6ee59a325e2f6a9d412e</sha256><size>20417024</size><notes>ver1.1.16 — v116
+Khôi phục nền gradient sáng của nút đang chọn và hiệu ứng đổi nền khi hover/nhấn cho cả XĂNG CƠ | FI và RPM | SPEED | THỦ CÔNG.
+Chỉ bỏ ánh sáng mờ quanh viền; chữ nút chưa chọn vẫn dịu, giữ khoảng cách 16 px với nút ĐO CÔNG SUẤT.
+Giữ nguyên cách đo, công thức, JSON cài đặt và RUN khi cập nhật.</notes></update>
