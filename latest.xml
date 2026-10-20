@@ -1,5 +1,4 @@
-<update><version>1.1.11</version><url>https://raw.githubusercontent.com/datlxps013977/dynotest-updates/main/releases/v111/Dynotest_Update.exe</url><sha256>68b683ff4aa00fc59cd4390090a8c658845d8089ea36facaa8359b3339c106c2</sha256><size>20415488</size><notes>ver1.1.11 — v111
-Đổi số Smoothing Value trong cửa sổ DYNO thành combobox 0–10, dùng style nền tối/viền cyan của giao diện chính.
-Chọn mức là lưu SmoothingValue vào JSON hiện tại và cập nhật chart, các giá trị Max và danh sách RUN.
-Dòng mô tả chart tự đổi theo trục X: TIME — theo thời gian, RPM — theo vòng tua, SPEED — theo tốc độ.
-Giữ nguyên công thức BRT của v110, thông số rulo và dữ liệu RUN. Bộ cập nhật không ghi đè JSON cài đặt.</notes></update>
+<update><version>1.1.12</version><url>https://raw.githubusercontent.com/datlxps013977/dynotest-updates/main/releases/v112/Dynotest_Update.exe</url><sha256>0345676f7a0fd50d4dc65052924faa545631e250b0cc02a316ae2de8a884f507</sha256><size>20415488</size><notes>ver1.1.12 — v112
+Sửa ô Smoothing Value bị trống: mỗi mức 0–10 có nội dung chữ riêng và giá trị số riêng.
+Nới rộng ô chọn và giảm padding để hiển thị đủ số 10 bên cạnh mũi tên, giữ style giao diện chính.
+Giữ chọn là lưu JSON/cập nhật chart và mô tả theo trục X của v111. Không thay công thức BRT hay dữ liệu RUN.</notes></update>
