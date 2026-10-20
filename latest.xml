@@ -1,6 +1,6 @@
-<update><version>1.1.13</version><url>https://raw.githubusercontent.com/datlxps013977/dynotest-updates/main/releases/v113/Dynotest_Update.exe</url><sha256>5eea0dc2d1d9c625a30703e4e4bddd6b80270e173e2abe3d192f6a8424f81a55</sha256><size>20416512</size><notes>ver1.1.13 — v113
-Sửa đúng khoảng trống bên dưới mục 10 trong danh sách Smoothing Value xổ xuống.
-Popup căn theo chiều cao 11 mục 0–10 và dùng cuộn theo pixel, không chừa thêm hàng trống dưới danh sách.
-Thu chiều rộng ô chọn còn 80 px, vẫn hiển thị đủ số 10.
-Giữ style nền tối/viền chính, chọn là lưu JSON và cập nhật chart. Không thay công thức BRT hay dữ liệu RUN.
-Sửa chart DYNO mở ra bị nền trắng/trục mặc định sau khi xoá biểu đồ ở màn hình chính: chart rỗng vẫn giữ nền tối, nhãn trục và thang X đúng chế độ.</notes></update>
+<update><version>1.1.14</version><url>https://raw.githubusercontent.com/datlxps013977/dynotest-updates/main/releases/v114/Dynotest_Update.exe</url><sha256>f0185de0f68de42fa3cc2640e48f0679e807bc8c4d0afab82fd92185c197f9b3</sha256><size>20418048</size><notes>ver1.1.14 — v114
+Thêm cụm RPM | SPEED | THỦ CÔNG liền nhau ở phần ĐO CÔNG SUẤT; chọn chế độ là lưu và dùng ngưỡng tương ứng đang có trong Settings. Không cho đổi giữa lúc đang ARM/đo/lưu RUN.
+Cụm XĂNG CƠ | FI liền nhau, chỉ bo các góc ngoài; cụm chọn cách đo cũng chỉ bo hai đầu.
+Gộp thông số AFR Target / RPM bắt đầu / RPM kết thúc với nút GHI DỮ LIỆU / NGỪNG GHI trong một khung.
+Ẩn MAX HP/MAX TQ và MAX AFR trong lúc live. Kết thúc đo/ghi thì label hiện dần khoảng 0,45 giây, không phát lại hiệu ứng khi zoom/rê chuột.
+Giữ nguyên công thức BRT, điều kiện bắt đầu đo thủ công, JSON cài đặt và RUN khi cập nhật.</notes></update>
