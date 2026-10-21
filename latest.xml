@@ -1,7 +1,4 @@
-<update><version>1.1.18</version><url>https://raw.githubusercontent.com/datlxps013977/dynotest-updates/main/releases/v118/Dynotest_Update.exe</url><sha256>ffb519dc143e85e23029735ed3a99e8840d378b007473d37b59c4f1fb844d957</sha256><size>20419584</size><notes>ver1.1.18 — v118
-Làm lại CARB TUNING: trên có GARANTI | 25% | 50% | 75% | 100%; dưới là 4 bảng ngang RPM/AFR xếp dọc, 500–13000 RPM bước 500.
-Chỉ nút ga đang chọn nhận mẫu mới. Bấm ô AFR để xem phân tích, không đổi nơi ghi. GARANTI chỉ phân tích RPM/AFR live, không ghi vào 4 bảng.
-Phân tích từng mốc RPM, tô chữ AFR theo kết quả, hiện phân tích ngay dưới từng bảng. Có cả mẫu đậm và nhạt thì báo KHÔNG ĐỒNG ĐỀU; dưới 3 mẫu báo THIẾU DỮ LIỆU.
-Cột thông số bên phải thu gọn 310 px; giữ header/logo và style hiện tại. Marker chỉ sáng viền ô đang chạy, không đổi nền.
-Lưu/mở phiên chứa đủ 4 bảng, ngưỡng AFR và thông số bình. Phiên cũ mở riêng để xem; không tự gán RPM cũ thành mức ga.
-Giữ nguyên JSON cài đặt Dyno và dữ liệu RUN khi cập nhật.</notes></update>
+<update><version>1.1.19</version><url>https://raw.githubusercontent.com/datlxps013977/dynotest-updates/main/releases/v119/Dynotest_Update.exe</url><sha256>42fc2186ee843bf60a9b09b45d523a7a7a362b074e5f1896786d4e505ba0e3f6</sha256><size>20418048</size><notes>ver1.1.19 — v119
+Bảng CARB đang được chọn ghi có viền cyan sáng dày 3 px quanh toàn bộ bảng và phần phân tích. Chuyển nút 25% / 50% / 75% / 100% thì viền chuyển theo, bảng khác trở lại viền mảnh.
+Chọn GARANTI thì khung phân tích live sáng viền và cả 4 bảng ga trở lại viền thường.
+Giữ nguyên cách ghi, thuật toán phân tích, giao diện bên trong, JSON cài đặt và RUN khi cập nhật.</notes></update>
