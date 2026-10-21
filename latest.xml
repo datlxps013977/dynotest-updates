@@ -1,4 +1,6 @@
-<update><version>1.1.19</version><url>https://raw.githubusercontent.com/datlxps013977/dynotest-updates/main/releases/v119/Dynotest_Update.exe</url><sha256>42fc2186ee843bf60a9b09b45d523a7a7a362b074e5f1896786d4e505ba0e3f6</sha256><size>20418048</size><notes>ver1.1.19 — v119
-Bảng CARB đang được chọn ghi có viền cyan sáng dày 3 px quanh toàn bộ bảng và phần phân tích. Chuyển nút 25% / 50% / 75% / 100% thì viền chuyển theo, bảng khác trở lại viền mảnh.
-Chọn GARANTI thì khung phân tích live sáng viền và cả 4 bảng ga trở lại viền thường.
-Giữ nguyên cách ghi, thuật toán phân tích, giao diện bên trong, JSON cài đặt và RUN khi cập nhật.</notes></update>
+<update><version>1.1.20</version><url>https://raw.githubusercontent.com/datlxps013977/dynotest-updates/main/releases/v120/Dynotest_Update.exe</url><sha256>3a55bb2a55def7cd0db8440246475462eebb0d59773342f4cb55bbe7d48151e3</sha256><size>20423168</size><notes>ver1.1.20 — v120
+CARB TUNING trình bày theo mẫu: 0–25%, 25–50%, 50–75%, 75–100%; thanh công cụ có icon tạm dừng, xoá, lưu, mở và đèn ghi.
+Dưới mỗi bảng là ĐÁNH GIÁ theo đoạn RPM và KHUYẾN NGHỊ đặt cạnh nhau. Mốc chưa đo không bị báo thiếu mẫu; bấm ô AFR để xem riêng mốc đó.
+Cột phải có AFR/RPM live lớn, vùng đang ghi, AFR Min/Max và bảng thông số nhập trực tiếp ở cột bên phải; vẫn lưu toàn bộ phiên và thông số bình.
+Dyno Chart, Gear, CVT, Giả lập và Auto Tune có các file Window XAML riêng, khai báo bố cục cửa sổ và các vùng nội dung. Giữ nguyên các control chart/map và sự kiện hiện có khi chuyển sang cửa sổ XAML.
+Giữ nguyên công thức Dyno, luồng đọc ECU, cách ghi CARB, JSON cài đặt và RUN khi cập nhật.</notes></update>
