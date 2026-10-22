@@ -1,9 +1,1 @@
-<update><version>1.1.23</version><url>https://raw.githubusercontent.com/datlxps013977/dynotest-updates/main/releases/v123/Dynotest_Update.exe</url><sha256>fb6bafdb1b98654e5fea8ce3c8e98d97513cb4bab8489e957ed18a47f6bacdb3</sha256><size>20429312</size><notes>ver1.1.23
-- Giao diện chính: hai đồng hồ RPM/SPEED lớn, ba ô POWER/TORQUE/AFR theo mẫu.
-- DYNO: checkbox HP / TORQUE / AFR, lưu trạng thái vào JSON. AFR nằm trong khung riêng phía dưới, dùng chung trục X và MAX X.
-- GHI DỮ LIỆU tự bật AFR; NGỪNG GHI và các ngưỡng ghi AFR giữ nguyên. Ẩn khung không dừng ghi.
-- Bỏ RPM biểu đồ MIN/MAX/STEP riêng trong Settings; giữ MAX X chung RPM/SPEED/TIME.
-- Đo tự động và thủ công: chốt mốc kết thúc rồi nhận đủ mẫu thực cho khung lọc cuối mới dừng; mẫu đệm không kéo dài kết quả đo.
-- Lưu đệm xử lý trong phần mở rộng SDB để mở lại giữ kết quả; không sửa RUN cũ.
-- MAX HP/TQ trên biểu đồ dùng cùng kết quả báo cáo với danh sách RUN.
-- Cập nhật chỉ thay tệp chương trình, giữ JSON cài đặt và dữ liệu RUN hiện có.</notes></update>
+<update><version>0.0.0</version><url>https://raw.githubusercontent.com/datlxps013977/dynotest-updates/main/releases/v123/Dynotest_Update.exe</url><sha256>fb6bafdb1b98654e5fea8ce3c8e98d97513cb4bab8489e957ed18a47f6bacdb3</sha256><size>20429312</size><notes>Tạm dừng cập nhật v123 để điều tra cảnh báo Microsoft Defender. Không khôi phục tệp bị cách ly.</notes></update>
