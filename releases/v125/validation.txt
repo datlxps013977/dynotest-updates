@@ -1,0 +1,6 @@
+Source: adba9c6bf7da9b09b91643d83d2542dfb5a52180
+Windows validation: https://github.com/datlxps013977/dynotest/actions/runs/39828207110
+Microsoft Defender completed scans: runtime and packaged updater found no threats.
+12 saved RUN selection cases: RPM/SPEED/TIME, AFR on/off.
+HP/TOQ/AFR JSON save/load, AFR RECORD/STOP, unchanged BRT processing checks passed.
+Updater: JSON/RUN retained, program reopened.

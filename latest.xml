@@ -1,1 +1,7 @@
-<update><version>0.0.0</version><url>https://raw.githubusercontent.com/datlxps013977/dynotest-updates/main/releases/v123/Dynotest_Update.exe</url><sha256>fb6bafdb1b98654e5fea8ce3c8e98d97513cb4bab8489e957ed18a47f6bacdb3</sha256><size>20429312</size><notes>Tạm dừng cập nhật v123 để điều tra cảnh báo Microsoft Defender. Không khôi phục tệp bị cách ly.</notes></update>
+<update><version>1.1.25</version><url>https://raw.githubusercontent.com/datlxps013977/dynotest-updates/main/releases/v125/Dynotest_Update.exe</url><sha256>553d9b33b85a46c4cc00ea61cb84b1b7217a552d14acf9f3a5c55ebf0f6d19b9</sha256><size>20426240</size><notes>ver1.1.25 - Giao diện mới trên nền xử lý v122.
+- Đổi giao diện chính theo mẫu nền tối, viền mảnh, header gọn.
+- Căn chữ RPM/SPEED; đưa vạch chia sát vòng ngoài, thêm nền tối dưới vạch chia và vòng tròn giữa.
+- Bỏ hiệu ứng phát sáng ở viền, khung và nút trên các cửa sổ; giữ màu chọn và hover.
+- Thêm chọn HP / TOQ / AFR trên Chart; AFR dùng chung dữ liệu RUN đã đọc và cùng trục X. Ghi AFR tự bật bảng AFR.
+- Giữ xử lý đo, dữ liệu RUN và các thiết lập JSON của v122.
+- Cập nhật chỉ thay file chương trình có thay đổi và tự mở lại phần mềm.</notes></update>
