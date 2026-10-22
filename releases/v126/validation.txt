@@ -1,0 +1,7 @@
+Source: 514495acb453d471a1d82379dbe6ca132c340d12
+Windows validation: https://github.com/datlxps013977/dynotest/actions/runs/39833735156
+Microsoft Defender signature 1.461.145.0: completed runtime and packaged updater scans found no threats.
+12 saved RUN selection cases: RPM/SPEED/TIME, AFR on/off.
+Exact shared Dyno/AFR grid, hover across redraw, target updates, active menu cyan and 100.0/180.0/16000 gauge fitting passed.
+HP/TOQ/AFR JSON save/load, AFR RECORD/STOP, original BRT processing and six windows checks passed.
+Updater: JSON/RUN retained, program reopened.

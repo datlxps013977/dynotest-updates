@@ -1,7 +1,11 @@
-<update><version>1.1.25</version><url>https://raw.githubusercontent.com/datlxps013977/dynotest-updates/main/releases/v125/Dynotest_Update.exe</url><sha256>553d9b33b85a46c4cc00ea61cb84b1b7217a552d14acf9f3a5c55ebf0f6d19b9</sha256><size>20426240</size><notes>ver1.1.25 - Giao diện mới trên nền xử lý v122.
-- Đổi giao diện chính theo mẫu nền tối, viền mảnh, header gọn.
-- Căn chữ RPM/SPEED; đưa vạch chia sát vòng ngoài, thêm nền tối dưới vạch chia và vòng tròn giữa.
-- Bỏ hiệu ứng phát sáng ở viền, khung và nút trên các cửa sổ; giữ màu chọn và hover.
-- Thêm chọn HP / TOQ / AFR trên Chart; AFR dùng chung dữ liệu RUN đã đọc và cùng trục X. Ghi AFR tự bật bảng AFR.
-- Giữ xử lý đo, dữ liệu RUN và các thiết lập JSON của v122.
-- Cập nhật chỉ thay file chương trình có thay đổi và tự mở lại phần mềm.</notes></update>
+<update><version>1.1.26</version><url>https://raw.githubusercontent.com/datlxps013977/dynotest-updates/main/releases/v126/Dynotest_Update.exe</url><sha256>06ec3eab01408ce746f2ed9ede23b75c7d3901d7260e5ffcdba4274e0ec762a3</sha256><size>20428288</size><notes>ver1.1.26
+- Dong ho RPM/SPEED: bo nen phu toan mat, chi giu nen vach chia va vong trong chua so.
+- Thu nho va ha tieu de RPM/SPEED cho can doi.
+- Giu nguyen HP/TOQ/AFR, cau hinh JSON va RUN.
+- AFR: khoi phuc luoi chinh, giam vach chia, hover hien ten RUN / truc X / AFR.
+- Menu active chi doi icon va chu cyan, nen/vien giu mac dinh.
+- Doi AFR TARGET cap nhat ngay duong muc tieu va gia tri tren chart.
+- Checkbox HP/TOQ/AFR moi, can deu o tick va chu.
+- Luoi AFR dung chung cach ve luoi Dyno.
+- Them net vong manh ngoai vach chia RPM/SPEED; vach TORQUE cung mau cam.
+- Tang nhe vong trong dong ho; so dai tu can vua vong, khong doi gia tri RPM/SPEED.</notes></update>
