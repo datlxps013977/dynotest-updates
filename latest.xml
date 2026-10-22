@@ -1,11 +1,10 @@
-<update><version>1.1.26</version><url>https://raw.githubusercontent.com/datlxps013977/dynotest-updates/main/releases/v126/Dynotest_Update.exe</url><sha256>06ec3eab01408ce746f2ed9ede23b75c7d3901d7260e5ffcdba4274e0ec762a3</sha256><size>20428288</size><notes>ver1.1.26
-- Dong ho RPM/SPEED: bo nen phu toan mat, chi giu nen vach chia va vong trong chua so.
-- Thu nho va ha tieu de RPM/SPEED cho can doi.
-- Giu nguyen HP/TOQ/AFR, cau hinh JSON va RUN.
-- AFR: khoi phuc luoi chinh, giam vach chia, hover hien ten RUN / truc X / AFR.
-- Menu active chi doi icon va chu cyan, nen/vien giu mac dinh.
-- Doi AFR TARGET cap nhat ngay duong muc tieu va gia tri tren chart.
-- Checkbox HP/TOQ/AFR moi, can deu o tick va chu.
-- Luoi AFR dung chung cach ve luoi Dyno.
-- Them net vong manh ngoai vach chia RPM/SPEED; vach TORQUE cung mau cam.
-- Tang nhe vong trong dong ho; so dai tu can vua vong, khong doi gia tri RPM/SPEED.</notes></update>
+<update><version>1.1.27</version><url>https://raw.githubusercontent.com/datlxps013977/dynotest-updates/main/releases/v127/Dynotest_Update.exe</url><sha256>ab8e90eb2cd7d7079e7785f0a42d16475d0b66955c689de7fb71f063d36c6b9b</sha256><size>20430336</size><notes>ver1.1.27
+- Hover AFR: dấu điểm, chữ và viền thông tin cùng màu đường RUN.
+- Lưới AFR: giữ kiểu nét Dyno, giảm còn 4 đường ngang cho thoáng.
+- Đồng hồ: nền vòng trong rõ hơn, đuôi kim ngắn hơn, viền vạch chia dày hơn nhẹ.
+- OXYGEN: icon và chữ đỏ khi phần cứng báo đang bật; tắt/ngắt kết nối về mặc định.
+- Giữ nguyên JSON cài đặt và dữ liệu RUN.
+- MAX/DỪNG: tiếp tục thu mẫu đến khi frame lọc hoàn tất rồi lưu; không cắt biểu đồ theo ngưỡng MAX. RAW giữ đầy đủ phần đệm, mở lại dùng cùng frame hoàn tất.
+- Thêm icon AFR ở tiêu đề biểu đồ AFR.
+- Hover nút ĐO CÔNG SUẤT sáng nền xanh rõ hơn, viền tương phản; không phát sáng.
+- Phím tắt: F1 đo công suất, F2 dừng đo, F3 ghi AFR, F4 ngừng ghi AFR. Giữ phím không lặp lệnh; Alt+F4 vẫn đóng cửa sổ.</notes></update>

@@ -1,0 +1,7 @@
+Source: 583ee6b0a02637c0085e8986329cc841bd66f2e7
+Windows validation: https://github.com/datlxps013977/dynotest/actions/runs/39837542857
+Microsoft Defender signature 1.461.145.0: runtime and packaged updater completed scans found no threats.
+RPM, SPEED and MANUAL: wait for supported final frame before save, retain full RAW, reopen identical completed points; no repeated save.
+F1/F2 route to measure/stop buttons; F3/F4 start/stop AFR. Key-repeat suppressed; Alt+F4 preserved.
+AFR hover color matches curve; four horizontal grid lines; oxygen active red; native dashboard and six windows checks passed.
+Original BRT numeric operators checked. Updater JSON/RUN retention and automatic restart passed.
