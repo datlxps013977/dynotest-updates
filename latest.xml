@@ -1,6 +1,9 @@
-<update><version>1.1.22</version><url>https://raw.githubusercontent.com/datlxps013977/dynotest-updates/main/releases/v122/Dynotest_Update.exe</url><sha256>896e5dbab58849180cce042268b85da392747e62b108218f25e88ed72565d001</sha256><size>20423168</size><notes>ver1.1.22 — v122
-CARB: đưa AFR LIVE và RPM LIVE về cột phải với số lớn như trước; hàng trên giữ 5 nút chọn ga.
-Bỏ viền riêng của combobox VÍT GIÓ / VÍT XĂNG để liền với bảng thông số. Giữ thao tác xổ danh sách trên toàn ô.
-Tăng chiều cao nút LƯU THÔNG SỐ, giãn khoảng cách dòng thông báo lưu bên dưới.
-Thông báo và hướng dẫn GARANTI chỉ nói về dữ liệu và điều chỉnh Garanti, bỏ nội dung liên quan đến 4 bảng ga.
-Giữ đồng bộ giá trị và màu AFR/RPM với màn hình chính. Cập nhật giữ nguyên JSON cài đặt và RUN đã lưu.</notes></update>
+<update><version>1.1.23</version><url>https://raw.githubusercontent.com/datlxps013977/dynotest-updates/main/releases/v123/Dynotest_Update.exe</url><sha256>fb6bafdb1b98654e5fea8ce3c8e98d97513cb4bab8489e957ed18a47f6bacdb3</sha256><size>20429312</size><notes>ver1.1.23
+- Giao diện chính: hai đồng hồ RPM/SPEED lớn, ba ô POWER/TORQUE/AFR theo mẫu.
+- DYNO: checkbox HP / TORQUE / AFR, lưu trạng thái vào JSON. AFR nằm trong khung riêng phía dưới, dùng chung trục X và MAX X.
+- GHI DỮ LIỆU tự bật AFR; NGỪNG GHI và các ngưỡng ghi AFR giữ nguyên. Ẩn khung không dừng ghi.
+- Bỏ RPM biểu đồ MIN/MAX/STEP riêng trong Settings; giữ MAX X chung RPM/SPEED/TIME.
+- Đo tự động và thủ công: chốt mốc kết thúc rồi nhận đủ mẫu thực cho khung lọc cuối mới dừng; mẫu đệm không kéo dài kết quả đo.
+- Lưu đệm xử lý trong phần mở rộng SDB để mở lại giữ kết quả; không sửa RUN cũ.
+- MAX HP/TQ trên biểu đồ dùng cùng kết quả báo cáo với danh sách RUN.
+- Cập nhật chỉ thay tệp chương trình, giữ JSON cài đặt và dữ liệu RUN hiện có.</notes></update>
