@@ -1,4 +1,4 @@
-<update><version>1.1.37</version><url>https://raw.githubusercontent.com/datlxps013977/dynotest-updates/main/releases/v137/Dynotest_Update.exe</url><sha256>7f8fba24730c75f54f19342257877333e0963daa6c2f2828c2d4a4a39a7c3c99</sha256><size>20698624</size><notes>ver1.1.37
-- Khi chạm redline, chỉ nền vòng trong chuyển đỏ mờ nhấp nháy nhẹ; xuống dưới ngưỡng trở lại nền thường.
-- Giữ màu và độ dày viền vòng trong, giữ màu dải phủ theo kim; không đổi đỏ các phần này.
-- Giữ sửa lỗi số SPEED bị chèn, cỡ số đo cố định, vòng trong lớn và JSON/RUN.</notes></update>
+<update><version>1.1.38</version><url>https://raw.githubusercontent.com/datlxps013977/dynotest-updates/main/releases/v138/Dynotest_Update.exe</url><sha256>78d3c13b632a5b22d8c056147c644425e3a5e63e3d84d3139330ccb3d6555835</sha256><size>20698624</size><notes>ver1.1.38
+- Rút ngắn phần kim hướng vào tâm khoảng một phần ba để phù hợp vòng trong đã nới; giữ chân kim sát vạch, lõi trắng, thân mỏng bo góc và đuôi vuốt.
+- Giữ redline chỉ đổi nền vòng trong đỏ mờ; giữ sửa lỗi số SPEED chạm vòng trong và vạch chia.
+- Giữ nguyên JSON, RUN và toàn bộ chức năng đo/lọc/lưu.</notes></update>
