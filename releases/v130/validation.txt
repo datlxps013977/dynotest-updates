@@ -1,0 +1,10 @@
+DynoTest DATNL ver1.1.30
+Verified source: ec75d0ff116064db0b40bb3be93938c08da946ba
+Windows workflow: https://github.com/datlxps013977/dynotest/actions/runs/39968313073
+Delivery: 3a08969a8ce27159f0cecf8cdc985fbb2bbaa500
+PASS: native WPF hit testing reaches plot beneath hover; 250 updates retain interactive MAX table, bounded overlay count, leave clears only hover.
+PASS: notice button hand cursor and template-level hover/pressed feedback.
+PASS: RUN selection, HP/TOQ visibility, AFR shared data, original numeric processing, live budget, frame completion, six WPF windows and CARB checks.
+PASS: updater replaces changed binaries only; JSON/RUN retained; application restarts.
+Microsoft Defender signature 1.461.165.0: completed runtime scan and packaged updater scan found no threats. This is not an absolute safety guarantee.
+No JSON/SDB in update payload. Manifest sizes and SHA256 verified before publication.

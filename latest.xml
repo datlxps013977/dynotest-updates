@@ -1,4 +1,6 @@
-<update><version>1.1.29</version><url>https://raw.githubusercontent.com/datlxps013977/dynotest-updates/main/releases/v129/Dynotest_Update.exe</url><sha256>d7af5cdf6a91fd8cf0cbcb3ef7f51536014edfcc5cbbf0f37b2f627110150aa8</sha256><size>20428800</size><notes>ver1.1.29
-- Đường HP/TOQ đã ẩn không còn được bắt điểm hover.
-- Hover chỉ hiện giá trị và dấu điểm của đường đang bật; ẩn cả hai thì tắt hover Dyno.
-- Bỏ chọn đường sẽ xoá hover cũ ngay; giữ dữ liệu RUN và JSON cài đặt.</notes></update>
+<update><version>1.1.30</version><url>https://raw.githubusercontent.com/datlxps013977/dynotest-updates/main/releases/v130/Dynotest_Update.exe</url><sha256>bbe35cf41cb345ad81127bb68dde03c3f0b9a326b490d39f692ac25864e1a37e</sha256><size>20429824</size><notes>ver1.1.30
+- Sửa hover nhấp nháy: lớp nhãn không chặn chuột, không dựng lại toàn bộ nhãn MAX khi rê chuột.
+- Dải nền vạch chia đậm phía ngoài, mờ dần vào trong; nền vòng số mờ hơn.
+- Thông báo cập nhật cùng cỡ chữ ver và cùng hàng; hạ cụm nút cửa sổ chart Dyno.
+- Giữ nguyên JSON cài đặt, dữ liệu RUN và công thức tính.
+- Nút đóng thông báo có con trỏ bàn tay, nền hover và phản hồi khi nhấn.</notes></update>
