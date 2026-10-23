@@ -1,8 +1,8 @@
-<update><version>1.1.33</version><url>https://raw.githubusercontent.com/datlxps013977/dynotest-updates/main/releases/v133/Dynotest_Update.exe</url><sha256>805f797a34623e9270cfe4e0cef6e9fc16fabe9c42437615613e075c543c23fe</sha256><size>20433920</size><notes>ver1.1.33
-- Cân lại hai đồng hồ RPM/SPEED theo mẫu nền tối: chữ tiêu đề nhỏ hơn và hạ xuống, số RPM lớn hơn SPEED đúng mẫu, giữ tự co khi có nhiều chữ số.
-- Kim có chân rộng ở phía vạch chia, nhọn về tâm; góc quét mở rộng nhẹ để hai đầu vòng thấp hơn; nhãn ở đúng ngưỡng redline vẫn trắng, nhãn lớn hơn ngưỡng mới đỏ.
-- Nền vạch chia xanh tối, đậm phía ngoài và mờ dần vào trong; vòng viền ngoài xanh giảm dần, nền vòng số mờ hơn. Không thêm viền glow.
-- Giữ nguyên MIN/MAX/STEP, redline và toàn bộ điều kiện đo, smoothing, hỏi lưu BIT3; không ghi đè JSON/RUN.
-- Vòng ngoài dùng cung tròn có chung góc MIN/MAX với vạch chia và kim; không còn lấy mép cắt khung làm hai đầu vòng.
-- Vạch phụ dày hơn theo mẫu; số 0 không đè kim; chân kim có lõi trắng ngắn, đầu kim mảnh hơn.
-- Cân lại khung hai đồng hồ để đơn vị/x1000 có khoảng trống dưới như mẫu, không sát mép thẻ công suất.</notes></update>
+<update><version>1.1.34</version><url>https://raw.githubusercontent.com/datlxps013977/dynotest-updates/main/releases/v134/Dynotest_Update.exe</url><sha256>a70a0ba61c7cf7bd8ddddd45f203e8d9aa7f93eaba365f29681a602362384e35</sha256><size>20701696</size><notes>ver1.1.34
+- Cân lại vòng ngoài và vạch chia, giữ chung đáy với vòng trong; chừa khoảng trống để đầu vạch không bị cắt.
+- Vạch phụ dày theo ảnh mẫu; các vạch chính dài đều, gồm cả vị trí không hiển thị số.
+- Kim là thanh dài mỏng bo góc, có lõi trắng và đuôi vuốt ngắn; thân giữ hai cạnh song song.
+- Chỉ nền vòng trong mờ dần xuống dưới, phía trên giữ bình thường.
+- Số đúng ngưỡng redline chuyển đỏ. Khi đạt redline, nền vòng trong đỏ mờ nhấp nháy; xuống dưới ngưỡng trở lại nền thường. RPM/SPEED hoạt động độc lập.
+- Font số chia được đóng gói trong phần mềm, không cần cài thêm font; giữ nguyên font số đo và tiêu đề.
+- Giữ nguyên JSON, RUN, MIN/MAX/STEP, redline và các chức năng đo/lọc/lưu hiện có.</notes></update>
