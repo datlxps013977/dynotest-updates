@@ -1,6 +1,4 @@
-<update><version>1.1.31</version><url>https://raw.githubusercontent.com/datlxps013977/dynotest-updates/main/releases/v131/Dynotest_Update.exe</url><sha256>c568db6688e5eb26f5ea2ef89156a6e162ba1bef658bccecc00aa08bbb8c6841</sha256><size>20431872</size><notes>ver1.1.31
-- RPM và SPEED chờ tăng tốc trở lại giống thủ công: đang thòng ga chưa ghi dù vẫn trên MIN.
-- Chỉ bắt đầu khi đạt MIN và xác nhận ít nhất 3 mẫu tăng trong tối thiểu 100 ms; mức tăng tối thiểu 50 RPM hoặc 0,2 km/h.
-- Không cần giảm dưới MIN trước khi kéo lên lại. Mẫu lỗi, trùng thời gian hoặc gián đoạn không kích hoạt RUN.
-- Giữ điều kiện MAX, nút DỪNG ĐO và nhận đủ mẫu frame cuối rồi lưu; giữ nguyên JSON/RUN.
-- Kết thúc đo hiện bảng hỏi lưu: nút LƯU hoặc BIT3 OK mới lưu; KHÔNG LƯU/đóng bảng bỏ lượt đo. Chỉ nhận cạnh OFF → ON sau khi bảng mở.</notes></update>
+<update><version>1.1.32</version><url>https://raw.githubusercontent.com/datlxps013977/dynotest-updates/main/releases/v132/Dynotest_Update.exe</url><sha256>470b3e92d33b6eda77d1be7c9938d4db47ce558bdc0a69cd7542eaaccfe5a5f8</sha256><size>20430848</size><notes>ver1.1.32
+- Đổi thông báo cập nhật thành nhãn NEW VERSION nền xanh lá, bo góc, nhấp nháy nhẹ; đặt sát số ver và cùng hàng.
+- Chỉ hiện khi có phiên bản mới; bấm nhãn mở phần cập nhật trong SETTINGS. Khi ẩn thì dừng hiệu ứng.
+- Giữ nguyên điều kiện đo, BIT3 hỏi lưu RUN, JSON và dữ liệu RUN.</notes></update>

@@ -1,0 +1,13 @@
+DynoTest DATNL ver1.1.32
+Published binary source: 0e51eb93e4b6455d922e30fadf22e544ea60b0d3
+Binary Windows workflow: https://github.com/datlxps013977/dynotest/actions/runs/39977871549
+Binary delivery: be333205491efb3c5505b8208074ae30fefbd1d7
+Footer screenshot/source delivery: b9d520049e4c01f6c33992e3402916c427cc8da5; https://github.com/datlxps013977/dynotest/actions/runs/39978978268
+Only validation/DashboardPreviewTests.cs changed between those sources; runtime source is identical. Screenshot exported from real WPF at native screen proportions.
+PASS: full compiled WPF XAML, newer-release visibility gating and existing footer Settings navigation.
+Green rounded NEW VERSION badge sits 7px beside version, same font size, vertically centered; opacity pulses 1 to 0.6 with auto-reverse while visible, removes storyboard when hidden.
+PASS: existing production RPM/SPEED acceleration gates, supported frame completion, actual save dialog and fresh BIT3 edge, discard/close behavior.
+PASS: RUN selection, original processing, hover/visibility, live budget, six WPF windows, CARB and other measurement checks.
+PASS: updater replaces changed binaries only, retains JSON/RUN and restarts application.
+Microsoft Defender signature 1.461.165.0: completed runtime and packaged updater scans found no threats. This is not an absolute safety guarantee.
+No JSON/SDB in payload. Manifest file hashes and sizes verified before publication.
