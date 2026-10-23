@@ -1,0 +1,7 @@
+Source: 0348ac2150b2f47faa3236346177987ceb3f82f9
+Windows validation: https://github.com/datlxps013977/dynotest/actions/runs/39941744755
+Microsoft Defender signature 1.461.163.0: completed runtime and updater scans found no threats.
+Footer notice: newer release appears, no available release hides it. Native dashboard and RUN checks passed.
+RPM/SPEED gauge scale labels smaller; hub fill softened; active RUN inset border removed; AFR hover RPM integer formatting.
+Existing F1-F4, completed-frame save/reopen, BRT numeric operators, chart and six-window checks passed.
+Updater: JSON/RUN retained and program reopened.
