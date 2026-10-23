@@ -9,3 +9,5 @@ Số chia được căn theo tâm nét chữ, cùng bán kính và thẳng với
 Dải theo kim phủ mờ toàn khoảng giữa vòng trong và mép trong vòng ngoài, từ đúng mốc 0, đầu cắt thẳng, không viền đậm.
 
 Nền caro nổi nhẹ xanh đen chỉ nằm trong khe giữa đường viền vạch chia và mép trong vòng ngoài.
+
+Số chia sát vạch hơn; số đo được tự căn theo đường tròn, đã kiểm tra qua 20.000 RPM và có ảnh thực tế 16.000 RPM.
