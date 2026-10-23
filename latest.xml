@@ -1,4 +1,4 @@
-<update><version>1.1.36</version><url>https://raw.githubusercontent.com/datlxps013977/dynotest-updates/main/releases/v136/Dynotest_Update.exe</url><sha256>febbb5eb03f4669296a559392db03d3b73e6538d015be053bd77f541a87c41f0</sha256><size>20699136</size><notes>ver1.1.36
-- Sửa vạch chia chạm vào số SPEED 160/180/200 trên thang MAX 200: chừa khoảng hở theo nét chữ thực tế.
-- Đưa số chia SPEED ra ngoài một chút nhưng vẫn đồng tâm và đúng góc; chừa khoảng hở với cả vòng trong và vạch chia. Giữ cỡ số đo cố định và vòng trong lớn.
-- Giữ JSON, RUN, thông số thang đo và toàn bộ chức năng đo/lọc/lưu.</notes></update>
+<update><version>1.1.37</version><url>https://raw.githubusercontent.com/datlxps013977/dynotest-updates/main/releases/v137/Dynotest_Update.exe</url><sha256>7f8fba24730c75f54f19342257877333e0963daa6c2f2828c2d4a4a39a7c3c99</sha256><size>20698624</size><notes>ver1.1.37
+- Khi chạm redline, chỉ nền vòng trong chuyển đỏ mờ nhấp nháy nhẹ; xuống dưới ngưỡng trở lại nền thường.
+- Giữ màu và độ dày viền vòng trong, giữ màu dải phủ theo kim; không đổi đỏ các phần này.
+- Giữ sửa lỗi số SPEED bị chèn, cỡ số đo cố định, vòng trong lớn và JSON/RUN.</notes></update>
