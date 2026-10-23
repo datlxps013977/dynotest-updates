@@ -1,4 +1,4 @@
-<update><version>1.1.39</version><url>https://raw.githubusercontent.com/datlxps013977/dynotest-updates/main/releases/v139/Dynotest_Update.exe</url><sha256>39595efcedad31631843f94fa88fc6eef8a5f6da13ebfe1ccdbd51869f41a50d</sha256><size>20698624</size><notes>ver1.1.39
-- Đổi icon CARBURETOR trên menu chính từ hình vuông sang bình xăng con với họng tròn, nắp và bầu xăng.
-- Icon giữ màu active/hover và kích thước đồng bộ với menu.
-- Giữ nguyên đồng hồ, chức năng đo/lọc/lưu, JSON và RUN.</notes></update>
+<update><version>1.1.40</version><url>https://raw.githubusercontent.com/datlxps013977/dynotest-updates/main/releases/v140/Dynotest_Update.exe</url><sha256>68c85d37c745f0a73bb0b286e352e5e92dbc3761a1dd616f6ecf45503289560f</sha256><size>20699136</size><notes>ver1.1.40
+- Căn tiêu đề, số đo và đơn vị RPM/SPEED cùng hàng, cùng font, cỡ chữ và độ đậm; hai số đo không còn lệch độ cao.
+- Dùng style chung cho hai vòng trong để giữ bố cục cân đối; số đo vẫn dùng cỡ cố định, không tự co.
+- Giữ vòng trong lớn, kim ngắn, sửa lỗi số SPEED, redline chỉ đổi nền, icon bình xăng con, JSON và RUN.</notes></update>
