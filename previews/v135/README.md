@@ -1,13 +1,8 @@
-# v135 — Ảnh xem trước
+# v135 — Ảnh xem trước từ Windows thực tế
 
-Ảnh từ giao diện WPF thực tế trên Windows. Vòng ngoài, vạch chia và vòng trong dùng chung tâm và chung góc MIN/MAX, không ép chung đáy.
-Giữ kim thanh mỏng bo góc có đuôi vuốt và các chức năng hiện có.
-Kênh cập nhật hiện vẫn là v134, bản v135 đang xem trước.
-
-Số chia được căn theo tâm nét chữ, cùng bán kính và thẳng với vạch tương ứng; bỏ lệch riêng số 0.
-
-Dải theo kim phủ mờ toàn khoảng giữa vòng trong và mép trong vòng ngoài, từ đúng mốc 0, đầu cắt thẳng, không viền đậm.
-
-Nền caro nổi nhẹ xanh đen chỉ nằm trong khe giữa đường viền vạch chia và mép trong vòng ngoài.
-
-Số chia sát vạch hơn; số đo được tự căn theo đường tròn, đã kiểm tra qua 20.000 RPM và có ảnh thực tế 16.000 RPM.
+Vòng ngoài, vạch chia, số chia và vòng trong đồng tâm, cùng góc MIN/MAX. Số chia sát vạch hơn.
+Vòng trong tăng đường kính từ 148 lên 172. Số đo dùng cỡ cố định, không tự co; đã kiểm tra qua 20.000 RPM và có ảnh 16.000 RPM.
+Kim thanh mỏng bo góc có đuôi vuốt; nền vòng trong mờ xuống dưới và cảnh báo redline độc lập.
+Dải chạy theo kim phủ mờ toàn khe đến mép trong vòng ngoài, bắt đầu đúng mốc 0, không nét đậm hoặc đầu bo.
+Nền caro nổi nhẹ xanh đen nằm giữa mép trong vòng ngoài và viền vạch chia.
+Kênh cập nhật hiện vẫn v134; v135 đang xem trước. Giữ nguyên JSON và RUN.
