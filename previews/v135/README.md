@@ -1,0 +1,5 @@
+# v135 — Ảnh xem trước
+
+Ảnh từ giao diện WPF thực tế trên Windows. Vòng ngoài, vạch chia và vòng trong dùng chung tâm và chung góc MIN/MAX, không ép chung đáy.
+Giữ kim thanh mỏng bo góc có đuôi vuốt và các chức năng hiện có.
+Kênh cập nhật hiện vẫn là v134, bản v135 đang xem trước.
