@@ -1,4 +1,8 @@
-<update><version>1.1.32</version><url>https://raw.githubusercontent.com/datlxps013977/dynotest-updates/main/releases/v132/Dynotest_Update.exe</url><sha256>470b3e92d33b6eda77d1be7c9938d4db47ce558bdc0a69cd7542eaaccfe5a5f8</sha256><size>20430848</size><notes>ver1.1.32
-- Đổi thông báo cập nhật thành nhãn NEW VERSION nền xanh lá, bo góc, nhấp nháy nhẹ; đặt sát số ver và cùng hàng.
-- Chỉ hiện khi có phiên bản mới; bấm nhãn mở phần cập nhật trong SETTINGS. Khi ẩn thì dừng hiệu ứng.
-- Giữ nguyên điều kiện đo, BIT3 hỏi lưu RUN, JSON và dữ liệu RUN.</notes></update>
+<update><version>1.1.33</version><url>https://raw.githubusercontent.com/datlxps013977/dynotest-updates/main/releases/v133/Dynotest_Update.exe</url><sha256>805f797a34623e9270cfe4e0cef6e9fc16fabe9c42437615613e075c543c23fe</sha256><size>20433920</size><notes>ver1.1.33
+- Cân lại hai đồng hồ RPM/SPEED theo mẫu nền tối: chữ tiêu đề nhỏ hơn và hạ xuống, số RPM lớn hơn SPEED đúng mẫu, giữ tự co khi có nhiều chữ số.
+- Kim có chân rộng ở phía vạch chia, nhọn về tâm; góc quét mở rộng nhẹ để hai đầu vòng thấp hơn; nhãn ở đúng ngưỡng redline vẫn trắng, nhãn lớn hơn ngưỡng mới đỏ.
+- Nền vạch chia xanh tối, đậm phía ngoài và mờ dần vào trong; vòng viền ngoài xanh giảm dần, nền vòng số mờ hơn. Không thêm viền glow.
+- Giữ nguyên MIN/MAX/STEP, redline và toàn bộ điều kiện đo, smoothing, hỏi lưu BIT3; không ghi đè JSON/RUN.
+- Vòng ngoài dùng cung tròn có chung góc MIN/MAX với vạch chia và kim; không còn lấy mép cắt khung làm hai đầu vòng.
+- Vạch phụ dày hơn theo mẫu; số 0 không đè kim; chân kim có lõi trắng ngắn, đầu kim mảnh hơn.
+- Cân lại khung hai đồng hồ để đơn vị/x1000 có khoảng trống dưới như mẫu, không sát mép thẻ công suất.</notes></update>

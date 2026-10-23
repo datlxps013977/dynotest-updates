@@ -1,0 +1,12 @@
+DynoTest DATNL ver1.1.33
+Verified source: 664dda2eee5ef59be7174efda8e83fa47a523aff
+Windows workflow: https://github.com/datlxps013977/dynotest/actions/runs/39983006993
+Delivery: dc697574b94bffdc2ad4fcde6cb0de79f027037c
+Native full-dashboard and gauge-crop PNGs exported from actual production XAML and inspected against user reference.
+RPM/SPEED title and value proportions corrected; dark-blue radial tick-track fade; white needle foot points inward; denser minor ticks; zero separated from needle; more space under units.
+Outer bezel is an explicit arc sharing MIN/MAX angles with ticks, labels, needle and progress, not a circle cut off by the viewport.
+PASS: native WPF layout checks both bezel endpoints against actual MIN/MAX ticks; scale, zero needle, values and units remain inside their viewports; 100.0/180.0/16000 fit width.
+Configured MIN/MAX/STEP/redline values are unchanged; labels at the redline boundary stay white, values above it red.
+PASS: RUN selection, visibility/hover, original numerical processing, live budget, supported frame completion, explicit save choice and fresh BIT3, discard/close, six WPF windows and CARB.
+PASS: updater replaces changed binaries only, preserves JSON/RUN and restarts software. No JSON/SDB in update payload; manifest sizes/hashes verified.
+Microsoft Defender signature 1.461.165.0: completed runtime and packaged updater scans found no threats. This is not an absolute safety guarantee.
