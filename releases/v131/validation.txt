@@ -1,0 +1,12 @@
+DynoTest DATNL ver1.1.31
+Verified source: f5fccc313d804016ea7b4cc58c11be45d8a1527b
+Windows workflow: https://github.com/datlxps013977/dynotest/actions/runs/39975279568
+Delivery: 59154be2ee5c4c83e860d4764c4e2c30c68eecff
+PASS: production RPM and SPEED wait through above-MIN coasting, start only on confirmed acceleration without requiring a below-MIN recross.
+PASS: MIN boundary, 3 rising samples/100 ms/50 RPM or 0.2 km/h, tiny jitter, duplicate times, invalid samples, stale gaps and timer reset.
+PASS: RPM/SPEED/MANUAL finish supported filter frame before choice; save/reopen preserves all RAW and identical completed points.
+PASS: actual save dialogs accept LUU button or fresh BIT3 edge after prompt; held or pre-dialog OK ignored; discard and close remove only temporary unsaved RUN, preserve original files.
+PASS: original numerical processing, RUN selection, visibility/hover, live budget, six WPF windows and CARB checks.
+PASS: updater replaces changed binaries only; JSON/RUN retained; application restarts.
+Microsoft Defender signature 1.461.165.0: completed runtime and packaged updater scans found no threats. This is not an absolute safety guarantee.
+Update payload contains no JSON/SDB; all manifest sizes and SHA256 hashes verified before publication.
