@@ -1,8 +1,4 @@
-<update><version>1.1.35</version><url>https://raw.githubusercontent.com/datlxps013977/dynotest-updates/main/releases/v135/Dynotest_Update.exe</url><sha256>05dafd16cf1edff86a5eb9a8e2d8e488894ea37e56d52fd52c887fa1f09e93a6</sha256><size>20700160</size><notes>ver1.1.35
-- Vòng ngoài, vòng vạch chia, số chia và vòng trong đồng tâm; khớp cùng góc MIN/MAX, không ép chung đáy.
-- Đưa số chia sát vạch hơn, căn theo tâm nét chữ, bỏ độ lệch riêng của số 0.
-- Nới vòng trong lớn hơn khoảng 16%; số đo dùng cỡ cố định, không tự co. Đã kiểm tra các mức 10.000-20.000 RPM.
-- Dải theo kim phủ mờ toàn khoảng từ vòng trong đến mép trong vòng ngoài, bắt đầu đúng mốc 0; bỏ đầu bo và nét viền đậm.
-- Thêm nền caro nổi nhẹ màu xanh đen trong khe giữa vòng ngoài và đường viền vạch chia.
-- Giữ kim thanh mỏng bo góc có đuôi vuốt, nền vòng trong mờ phía dưới và cảnh báo redline độc lập.
-- Giữ nguyên JSON cài đặt, dữ liệu RUN và các chức năng đo, smoothing, hỏi lưu và BIT3 hiện có.</notes></update>
+<update><version>1.1.36</version><url>https://raw.githubusercontent.com/datlxps013977/dynotest-updates/main/releases/v136/Dynotest_Update.exe</url><sha256>febbb5eb03f4669296a559392db03d3b73e6538d015be053bd77f541a87c41f0</sha256><size>20699136</size><notes>ver1.1.36
+- Sửa vạch chia chạm vào số SPEED 160/180/200 trên thang MAX 200: chừa khoảng hở theo nét chữ thực tế.
+- Đưa số chia SPEED ra ngoài một chút nhưng vẫn đồng tâm và đúng góc; chừa khoảng hở với cả vòng trong và vạch chia. Giữ cỡ số đo cố định và vòng trong lớn.
+- Giữ JSON, RUN, thông số thang đo và toàn bộ chức năng đo/lọc/lưu.</notes></update>
