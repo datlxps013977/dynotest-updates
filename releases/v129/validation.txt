@@ -1,0 +1,6 @@
+Source: 14f9e1dcf54fcf439530902d6326457dbe414e0b
+Windows validation: https://github.com/datlxps013977/dynotest/actions/runs/39964513140
+Microsoft Defender signature 1.461.165.0: completed runtime and packaged updater scans found no threats.
+Hidden HP/TQ do not catch hover. Tooltip and markers follow all four visibility combinations; visible torque does not depend on empty hidden HP samples.
+Existing real RUN, F1-F4, supported-frame save/reopen, BRT numeric and six-window checks passed.
+Updater retains JSON/RUN and restarts software.

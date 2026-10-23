@@ -1,7 +1,4 @@
-<update><version>1.1.28</version><url>https://raw.githubusercontent.com/datlxps013977/dynotest-updates/main/releases/v128/Dynotest_Update.exe</url><sha256>7a1c8d186f46fe7049b2307848356e8825537d0daa7ca4be66829b5b43d79f3e</sha256><size>20429824</size><notes>ver1.1.28
-- Giảm nhẹ cỡ số trên thang chia RPM/SPEED.
-- Nền vòng trong RPM/SPEED mờ hơn, giữ nguyên viền và số đo.
-- Giữ các chức năng v127, JSON cài đặt và RUN đã lưu.
-- Bỏ viền mờ bên trong thẻ RUN active; giữ viền ngoài và vạch màu RUN.
-- Có bản mới: hiện thông báo cạnh ver ở chân cửa sổ chính; bấm để mở mục cập nhật trong SETTINGS.
-- Hover AFR theo RPM hiển thị số nguyên, không có phần thập phân.</notes></update>
+<update><version>1.1.29</version><url>https://raw.githubusercontent.com/datlxps013977/dynotest-updates/main/releases/v129/Dynotest_Update.exe</url><sha256>d7af5cdf6a91fd8cf0cbcb3ef7f51536014edfcc5cbbf0f37b2f627110150aa8</sha256><size>20428800</size><notes>ver1.1.29
+- Đường HP/TOQ đã ẩn không còn được bắt điểm hover.
+- Hover chỉ hiện giá trị và dấu điểm của đường đang bật; ẩn cả hai thì tắt hover Dyno.
+- Bỏ chọn đường sẽ xoá hover cũ ngay; giữ dữ liệu RUN và JSON cài đặt.</notes></update>
