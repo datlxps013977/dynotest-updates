@@ -1,5 +1,3 @@
-<update><version>1.1.45</version><url>https://raw.githubusercontent.com/datlxps013977/dynotest-updates/main/releases/v145/Dynotest_Update.exe</url><sha256>9439f9123c504011b9867243e3d645b79952b94050ac95a168fdb488d3f33bac</sha256><size>20698624</size><notes>v145 / 1.1.45
-Thêm ATE V9.2 (9.2.0.3) trong Auto Tune. Dùng bộ ATE_V92_Dynotest kèm AteV9Bridge.dll, READ ALL và Send Current theo giao thức V9 đã đối chiếu.
-Giữ nguyên EXE ATE gốc; chỉ thêm cầu nối vào bản sao. Không thay đổi dữ liệu JSON/RUN hoặc công thức đo.
-Đã kiểm tra metadata/IL và mô phỏng giao tiếp; cần xác nhận với ECU thật.
-Trục Y khi live bám đỉnh của bản xem trước đã làm mượt, có thể thu xuống êm khi đỉnh tạm giảm; chừa 10% như chart khi mở RUN, không giữ mãi mức Y cao cũ. Không thay đổi dữ liệu HP/TOQ.</notes></update>
+<update><version>1.1.46</version><url>https://raw.githubusercontent.com/datlxps013977/dynotest-updates/main/releases/v146/Dynotest_Update.exe</url><sha256>5cec6b9005e5bc82ac918bcc2615d3eb58684872f0949911ae970954bf8a4090</sha256><size>20698112</size><notes>v146 / 1.1.46
+Sửa học AFR khi thòng ga: TPS dưới 0.05% được coi là đóng ga; trên 2500 RPM không học dù RPM đứng yên. Garanti cần đủ 500ms ổn định, dữ liệu mới. Áp dụng chung RedLeo/ATE, gồm ATE 9.2.
+Giữ Auto Execute và cầu nối riêng từng ECU, dữ liệu JSON/RUN, công thức đo và sửa trục Y v145.</notes></update>
