@@ -1,4 +1,4 @@
-<update><version>1.1.49</version><url>https://raw.githubusercontent.com/datlxps013977/dynotest-updates/main/releases/v149/Dynotest_Update.exe</url><sha256>75468e76d8997f978c31f88d7802449fc57905f98c14c1a7284b32e32c7c1e5d</sha256><size>20700160</size><notes>v149 / 1.1.49
-Chọn EXE ECU một lần, tự lưu đường dẫn riêng từng phiên bản vào Assets/json/EcuExecutablePaths.json. Những lần sau bấm phiên bản là tự mở đúng EXE; file bị xóa/di chuyển thì yêu cầu chọn lại. Nút … bên cạnh phiên bản cho phép đổi EXE.
-Danh sách chia nhóm REDLEO và ATE. Thêm mục REDLEO V10, dùng chung bộ đọc Ultra Pro 1 hiện có nhưng nhớ EXE riêng và hiện đúng tên V10.
-Giữ nguyên công thức, xử lý RUN, Auto Tune và các cài đặt JSON hiện có.</notes></update>
+<update><version>1.1.50</version><url>https://raw.githubusercontent.com/datlxps013977/dynotest-updates/main/releases/v150/Dynotest_Update.exe</url><sha256>01fca712fd0a0984c16c754651ff7b67235058ff752b6eda858141fd15fc6140</sha256><size>20700160</size><notes>v150 / 1.1.50
+Cửa sổ chọn ECU gọn hơn: mỗi hàng hai nút phiên bản, tiêu đề REDLEO/ATE lớn hơn và căn giữa.
+Icon tệp ĐỔI EXE nằm trong mép phải nút phiên bản, không có khung nút tách rời. Bấm tên để mở EXE đã nhớ; bấm icon để chọn lại đường dẫn riêng của phiên bản đó.
+Giữ cơ chế lưu JSON đường dẫn, bộ đọc ECU, Auto Tune, công thức và dữ liệu RUN hiện có.</notes></update>
