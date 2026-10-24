@@ -1,5 +1,4 @@
-<update><version>1.1.48</version><url>https://raw.githubusercontent.com/datlxps013977/dynotest-updates/main/releases/v148/Dynotest_Update.exe</url><sha256>2f3052e236938b6390b942ad3d0bede177b0f46708d5e20241dc2054a63fc082</sha256><size>20699648</size><notes>v148 / 1.1.48
-Thêm khoảng cách 12px giữa header Chart Dyno và nội dung bên dưới, áp dụng đều cho danh sách RUN và biểu đồ. Khoảng cách nằm ngoài Viewbox để ổn định khi thay đổi kích thước cửa sổ.
-Giữ nguyên chức năng, công thức đo, sửa TPS và đồng bộ trục v147; không thay đổi JSON/RUN.
-Bỏ logo ở cửa sổ CHỌN PHIÊN BẢN ECU; giữ tiêu đề cách mép trái 20px như SETTINGS/ADMIN.
-Xác thực ADMIN: bỏ khung viền/nền riêng của phần nội dung; ô mật khẩu dùng nền và viền chung, giữ nguyên kiểm tra mật khẩu.</notes></update>
+<update><version>1.1.49</version><url>https://raw.githubusercontent.com/datlxps013977/dynotest-updates/main/releases/v149/Dynotest_Update.exe</url><sha256>75468e76d8997f978c31f88d7802449fc57905f98c14c1a7284b32e32c7c1e5d</sha256><size>20700160</size><notes>v149 / 1.1.49
+Chọn EXE ECU một lần, tự lưu đường dẫn riêng từng phiên bản vào Assets/json/EcuExecutablePaths.json. Những lần sau bấm phiên bản là tự mở đúng EXE; file bị xóa/di chuyển thì yêu cầu chọn lại. Nút … bên cạnh phiên bản cho phép đổi EXE.
+Danh sách chia nhóm REDLEO và ATE. Thêm mục REDLEO V10, dùng chung bộ đọc Ultra Pro 1 hiện có nhưng nhớ EXE riêng và hiện đúng tên V10.
+Giữ nguyên công thức, xử lý RUN, Auto Tune và các cài đặt JSON hiện có.</notes></update>
