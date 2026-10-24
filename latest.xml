@@ -1,3 +1,3 @@
-<update><version>1.1.42</version><url>https://raw.githubusercontent.com/datlxps013977/dynotest-updates/main/releases/v142/Dynotest_Update.exe</url><sha256>5c20b0ba9ec09bb1819e623c4c94d71b4b4f9610a4351e559809be3081575aff</sha256><size>20696576</size><notes>v142 / 1.1.42
-Bỏ logo ở header SETTINGS, ADMIN và xác thực ADMIN. Giữ tiêu đề, nút đóng và chức năng hiện có.
-Không thay đổi xử lý RUN, đo công suất hoặc dữ liệu JSON.</notes></update>
+<update><version>1.1.43</version><url>https://raw.githubusercontent.com/datlxps013977/dynotest-updates/main/releases/v143/Dynotest_Update.exe</url><sha256>335a63a64a1eae0a2b7147eb3f30db5ffe7a1687f02b9d527ef4137a43cf7481</sha256><size>20697088</size><notes>v143 / 1.1.43
+Khôi phục hover rõ màu xanh cho TẢI RUN, màu đỏ cho XOÁ TẤT CẢ; có phản hồi nhấn, không thêm viền phát sáng.
+Giữ thay đổi bỏ logo SETTINGS và ADMIN của v142. Không đổi nút xoá từng RUN hoặc dữ liệu JSON/RUN.</notes></update>
