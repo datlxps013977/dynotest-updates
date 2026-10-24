@@ -1,5 +1,4 @@
-<update><version>1.1.51</version><url>https://raw.githubusercontent.com/datlxps013977/dynotest-updates/main/releases/v151/Dynotest_Update.exe</url><sha256>80b5ce4bb3c53e7e28b7b1ce77cdf966748d8d3f89b35d8c17baf95ac034ecf1</sha256><size>20701184</size><notes>v151 / 1.1.51
-Sửa cửa sổ chọn ECU đóng sớm khi chưa chọn xong EXE. Hộp chọn EXE thuộc cửa sổ danh sách ECU; bấm Hủy giữ nguyên danh sách và đường dẫn đã nhớ.
-Icon tệp chỉ đổi/lưu EXE và giữ danh sách mở. Bấm nút phiên bản mới mở ECU; chỉ đóng danh sách khi có đường dẫn để mở. Giữ bố cục hai nút mỗi hàng và tiêu đề REDLEO/ATE.
-Giữ nguyên bộ đọc, Auto Tune, công thức, JSON và RUN hiện có.
-Thu gọn nút phiên bản xuống cao 46px, chữ 13px, icon tệp nhỏ hơn; cửa sổ còn 540 × 500, giữ hai nút mỗi hàng.</notes></update>
+<update><version>1.1.52</version><url>https://raw.githubusercontent.com/datlxps013977/dynotest-updates/main/releases/v152/Dynotest_Update.exe</url><sha256>8e4f19172e02291d715f8c45137a4fb738754b700848b8ad3ec1bdb272377657</sha256><size>20702208</size><notes>v152 / 1.1.52
+Chỉ làm dịu hiển thị: số RPM lọc 120ms và đổi 10 lần/giây; AFR lọc 250ms và đổi 5 lần/giây. Kim RPM dùng cùng bộ lọc 120ms với số; thanh AFR dùng cùng bộ lọc 250ms với số. Kim/thanh vẫn chạy khoảng 60 lần/giây, theo thời gian thực để tránh giật khi UI trễ nhịp.
+Các số AFR/RPM trên màn hình chính, cửa sổ AFR và Carb đồng bộ; AFR hiển thị ở Auto Tune dùng cùng giá trị đã giữ nhịp. Thanh AFR vẫn chuyển động liên tục.
+Không giảm tốc độ lấy mẫu phần cứng, không thay đổi RAW/RUN, công thức, điều kiện MIN/MAX, redline hoặc dữ liệu học AFR.</notes></update>
