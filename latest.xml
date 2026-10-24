@@ -1,4 +1,5 @@
-<update><version>1.1.50</version><url>https://raw.githubusercontent.com/datlxps013977/dynotest-updates/main/releases/v150/Dynotest_Update.exe</url><sha256>01fca712fd0a0984c16c754651ff7b67235058ff752b6eda858141fd15fc6140</sha256><size>20700160</size><notes>v150 / 1.1.50
-Cửa sổ chọn ECU gọn hơn: mỗi hàng hai nút phiên bản, tiêu đề REDLEO/ATE lớn hơn và căn giữa.
-Icon tệp ĐỔI EXE nằm trong mép phải nút phiên bản, không có khung nút tách rời. Bấm tên để mở EXE đã nhớ; bấm icon để chọn lại đường dẫn riêng của phiên bản đó.
-Giữ cơ chế lưu JSON đường dẫn, bộ đọc ECU, Auto Tune, công thức và dữ liệu RUN hiện có.</notes></update>
+<update><version>1.1.51</version><url>https://raw.githubusercontent.com/datlxps013977/dynotest-updates/main/releases/v151/Dynotest_Update.exe</url><sha256>80b5ce4bb3c53e7e28b7b1ce77cdf966748d8d3f89b35d8c17baf95ac034ecf1</sha256><size>20701184</size><notes>v151 / 1.1.51
+Sửa cửa sổ chọn ECU đóng sớm khi chưa chọn xong EXE. Hộp chọn EXE thuộc cửa sổ danh sách ECU; bấm Hủy giữ nguyên danh sách và đường dẫn đã nhớ.
+Icon tệp chỉ đổi/lưu EXE và giữ danh sách mở. Bấm nút phiên bản mới mở ECU; chỉ đóng danh sách khi có đường dẫn để mở. Giữ bố cục hai nút mỗi hàng và tiêu đề REDLEO/ATE.
+Giữ nguyên bộ đọc, Auto Tune, công thức, JSON và RUN hiện có.
+Thu gọn nút phiên bản xuống cao 46px, chữ 13px, icon tệp nhỏ hơn; cửa sổ còn 540 × 500, giữ hai nút mỗi hàng.</notes></update>
