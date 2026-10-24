@@ -1,4 +1,5 @@
-<update><version>1.1.40</version><url>https://raw.githubusercontent.com/datlxps013977/dynotest-updates/main/releases/v140/Dynotest_Update.exe</url><sha256>68c85d37c745f0a73bb0b286e352e5e92dbc3761a1dd616f6ecf45503289560f</sha256><size>20699136</size><notes>ver1.1.40
-- Căn tiêu đề, số đo và đơn vị RPM/SPEED cùng hàng, cùng font, cỡ chữ và độ đậm; hai số đo không còn lệch độ cao.
-- Dùng style chung cho hai vòng trong để giữ bố cục cân đối; số đo vẫn dùng cỡ cố định, không tự co.
-- Giữ vòng trong lớn, kim ngắn, sửa lỗi số SPEED, redline chỉ đổi nền, icon bình xăng con, JSON và RUN.</notes></update>
+<update><version>1.1.41</version><url>https://raw.githubusercontent.com/datlxps013977/dynotest-updates/main/releases/v141/Dynotest_Update.exe</url><sha256>7b6a669e9129761ddba3f7c6e5f49a24ae4aac4ea27eaec8c0463298aa4c8008</sha256><size>20698112</size><notes>ver1.1.41
+- Đồng bộ header DYNO, CVT, GEAR, GIẢ LẬP, AUTO TUNE và CARB theo cùng mẫu XAML: logo trái, nền tối phẳng, nút chức năng chữ nhật bo nhẹ, vạch ngăn và ba nút điều khiển trắng bên phải.
+- Bỏ ảnh xe, họa tiết chéo và nút nghiêng ở header cũ; giữ các nút chức năng, thông tin RUN và trạng thái ECU cần thiết.
+- Đồng bộ header hộp thoại và AFR nhỏ theo cùng phong cách; giữ thao tác đóng, kéo, thu nhỏ, phóng to/khôi phục và chừa khoảng trống khi đổi kích thước.
+- Giữ nguyên JSON, RUN, đồng hồ và toàn bộ xử lý đo/lọc/lưu.</notes></update>

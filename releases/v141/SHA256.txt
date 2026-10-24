@@ -1,0 +1,2 @@
+7b6a669e9129761ddba3f7c6e5f49a24ae4aac4ea27eaec8c0463298aa4c8008  Dynotest_Update.exe
+86adae47307c5b8bf1a63ecd60298490ffb856fd6d1d48c99c55b3e45240ba55  payload/DynoUsbReader.exe
