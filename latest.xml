@@ -1,3 +1,3 @@
-<update><version>1.1.43</version><url>https://raw.githubusercontent.com/datlxps013977/dynotest-updates/main/releases/v143/Dynotest_Update.exe</url><sha256>335a63a64a1eae0a2b7147eb3f30db5ffe7a1687f02b9d527ef4137a43cf7481</sha256><size>20697088</size><notes>v143 / 1.1.43
-Khôi phục hover rõ màu xanh cho TẢI RUN, màu đỏ cho XOÁ TẤT CẢ; có phản hồi nhấn, không thêm viền phát sáng.
-Giữ thay đổi bỏ logo SETTINGS và ADMIN của v142. Không đổi nút xoá từng RUN hoặc dữ liệu JSON/RUN.</notes></update>
+<update><version>1.1.44</version><url>https://raw.githubusercontent.com/datlxps013977/dynotest-updates/main/releases/v144/Dynotest_Update.exe</url><sha256>112700bcd12b3260cd3848ffe1c8286403e15b043fc21f5ee5d433ccd4d49af6</sha256><size>20697088</size><notes>v144 / 1.1.44
+Căn lề trái tiêu đề SETTINGS và ADMIN cách mép 20px, áp dụng cả xác thực ADMIN và header nhỏ.
+Giữ hover TẢI RUN / XOÁ TẤT CẢ, dữ liệu JSON/RUN và chức năng đo.</notes></update>
