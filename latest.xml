@@ -1,3 +1,5 @@
-<update><version>1.1.44</version><url>https://raw.githubusercontent.com/datlxps013977/dynotest-updates/main/releases/v144/Dynotest_Update.exe</url><sha256>112700bcd12b3260cd3848ffe1c8286403e15b043fc21f5ee5d433ccd4d49af6</sha256><size>20697088</size><notes>v144 / 1.1.44
-Căn lề trái tiêu đề SETTINGS và ADMIN cách mép 20px, áp dụng cả xác thực ADMIN và header nhỏ.
-Giữ hover TẢI RUN / XOÁ TẤT CẢ, dữ liệu JSON/RUN và chức năng đo.</notes></update>
+<update><version>1.1.45</version><url>https://raw.githubusercontent.com/datlxps013977/dynotest-updates/main/releases/v145/Dynotest_Update.exe</url><sha256>9439f9123c504011b9867243e3d645b79952b94050ac95a168fdb488d3f33bac</sha256><size>20698624</size><notes>v145 / 1.1.45
+Thêm ATE V9.2 (9.2.0.3) trong Auto Tune. Dùng bộ ATE_V92_Dynotest kèm AteV9Bridge.dll, READ ALL và Send Current theo giao thức V9 đã đối chiếu.
+Giữ nguyên EXE ATE gốc; chỉ thêm cầu nối vào bản sao. Không thay đổi dữ liệu JSON/RUN hoặc công thức đo.
+Đã kiểm tra metadata/IL và mô phỏng giao tiếp; cần xác nhận với ECU thật.
+Trục Y khi live bám đỉnh của bản xem trước đã làm mượt, có thể thu xuống êm khi đỉnh tạm giảm; chừa 10% như chart khi mở RUN, không giữ mãi mức Y cao cũ. Không thay đổi dữ liệu HP/TOQ.</notes></update>
