@@ -1,5 +1,3 @@
-<update><version>1.1.41</version><url>https://raw.githubusercontent.com/datlxps013977/dynotest-updates/main/releases/v141/Dynotest_Update.exe</url><sha256>7b6a669e9129761ddba3f7c6e5f49a24ae4aac4ea27eaec8c0463298aa4c8008</sha256><size>20698112</size><notes>ver1.1.41
-- Đồng bộ header DYNO, CVT, GEAR, GIẢ LẬP, AUTO TUNE và CARB theo cùng mẫu XAML: logo trái, nền tối phẳng, nút chức năng chữ nhật bo nhẹ, vạch ngăn và ba nút điều khiển trắng bên phải.
-- Bỏ ảnh xe, họa tiết chéo và nút nghiêng ở header cũ; giữ các nút chức năng, thông tin RUN và trạng thái ECU cần thiết.
-- Đồng bộ header hộp thoại và AFR nhỏ theo cùng phong cách; giữ thao tác đóng, kéo, thu nhỏ, phóng to/khôi phục và chừa khoảng trống khi đổi kích thước.
-- Giữ nguyên JSON, RUN, đồng hồ và toàn bộ xử lý đo/lọc/lưu.</notes></update>
+<update><version>1.1.42</version><url>https://raw.githubusercontent.com/datlxps013977/dynotest-updates/main/releases/v142/Dynotest_Update.exe</url><sha256>5c20b0ba9ec09bb1819e623c4c94d71b4b4f9610a4351e559809be3081575aff</sha256><size>20696576</size><notes>v142 / 1.1.42
+Bỏ logo ở header SETTINGS, ADMIN và xác thực ADMIN. Giữ tiêu đề, nút đóng và chức năng hiện có.
+Không thay đổi xử lý RUN, đo công suất hoặc dữ liệu JSON.</notes></update>
