@@ -2,14 +2,12 @@
 
 Kênh cập nhật công khai chính thức. Source code giữ trong repo riêng tư.
 
-## Bản hiện tại: ver1.1.47
+## Bản hiện tại: ver1.1.48
 
-Sửa nhận TPS đóng ga khi live 0.40V và Min READ ALL 0.39V; giữ nguyên điện áp thô và hiệu chuẩn toàn dải. Dùng chung cho mọi ECU, điều kiện học và Auto Execute.
-
-Đồng bộ điểm và trục của live đã chốt / lưu / mở lại RUN: X/Y bắt đầu tại MIN X / MIN Y dữ liệu, bỏ giữ giới hạn cũ, dùng cùng cách chia vạch và dựng xong frame cuối trước hộp lưu. Giữ nguyên JSON/RUN và công thức dyno.
+Thêm khoảng cách cố định 12px giữa header Chart Dyno và nội dung bên dưới, áp dụng đều cho danh sách RUN và khung biểu đồ; giữ khoảng cách khi thay đổi kích thước cửa sổ. Bỏ logo ở cửa sổ CHỌN PHIÊN BẢN ECU, giữ tiêu đề và lề trái 20px như SETTINGS/ADMIN. Bỏ khung viền/nền riêng của phần xác thực ADMIN và đồng bộ ô mật khẩu. Giữ toàn bộ sửa TPS, điểm/trục v147 và dữ liệu JSON/RUN.
 
 Bản phát hành đã qua kiểm tra Windows, quét Defender cho ứng dụng và bộ cập nhật, kiểm tra giữ JSON/RUN và khởi động lại.
 
 Trong SETTINGS, bấm ↻ để kiểm tra rồi chọn CẬP NHẬT.
 
-[Tải bộ cập nhật v147](releases/v147/Dynotest_Update.exe) · [SHA-256](releases/v147/SHA256.txt) · [Kiểm tra giữ dữ liệu](releases/v147/update-checks.txt).
+[Tải bộ cập nhật v148](releases/v148/Dynotest_Update.exe) · [SHA-256](releases/v148/SHA256.txt) · [Kiểm tra giữ dữ liệu](releases/v148/update-checks.txt).

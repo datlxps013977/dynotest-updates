@@ -1,6 +1,5 @@
-<update><version>1.1.47</version><url>https://raw.githubusercontent.com/datlxps013977/dynotest-updates/main/releases/v147/Dynotest_Update.exe</url><sha256>64c1b8e0dac034c2c10fa869c1b47763d3b7397501508a04c194b250eea4b639</sha256><size>20700160</size><notes>v147 / 1.1.47
-Sửa TPS live 0.40V / Min READ ALL 0.39V bị nhận thành mở ga. Dùng chung dung sai tối đa 0.015V (giới hạn 0.5% dải hiệu chuẩn) cho mọi ECU; giữ điện áp thô, thang TPS và mức 100%.
-TPS % đã chuẩn hoá được dùng chung cho vị trí ô MAP, điều kiện học và Auto Execute. Giữ điều kiện garanti / thòng ga của v146.
-Không thêm điều kiện tốc độ rulo. Không thay đổi công thức dyno hoặc JSON/RUN.
-Đồng bộ trục live / kết thúc / lưu / mở RUN: Y bắt đầu tại MIN Y thực của HP/TOQ, chừa 10% trên cùng một tập điểm; X bám dữ liệu không nới thêm 1/0.85 hoặc giữ max cũ; bỏ khoá viewport sau STOP và dùng chung cách chia vạch.
-Dựng xong frame cuối bằng cùng hàm đọc RUN trước khi hiện hộp lưu, không hiện preview cũ rồi thay đường khi lưu; kiểm tra điểm và trục trước lưu / sau lưu / mở lại ở ba chế độ X.</notes></update>
+<update><version>1.1.48</version><url>https://raw.githubusercontent.com/datlxps013977/dynotest-updates/main/releases/v148/Dynotest_Update.exe</url><sha256>2f3052e236938b6390b942ad3d0bede177b0f46708d5e20241dc2054a63fc082</sha256><size>20699648</size><notes>v148 / 1.1.48
+Thêm khoảng cách 12px giữa header Chart Dyno và nội dung bên dưới, áp dụng đều cho danh sách RUN và biểu đồ. Khoảng cách nằm ngoài Viewbox để ổn định khi thay đổi kích thước cửa sổ.
+Giữ nguyên chức năng, công thức đo, sửa TPS và đồng bộ trục v147; không thay đổi JSON/RUN.
+Bỏ logo ở cửa sổ CHỌN PHIÊN BẢN ECU; giữ tiêu đề cách mép trái 20px như SETTINGS/ADMIN.
+Xác thực ADMIN: bỏ khung viền/nền riêng của phần nội dung; ô mật khẩu dùng nền và viền chung, giữ nguyên kiểm tra mật khẩu.</notes></update>
