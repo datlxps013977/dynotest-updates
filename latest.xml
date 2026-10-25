@@ -1,5 +1,5 @@
-<update><version>1.1.56</version><url>https://raw.githubusercontent.com/datlxps013977/dynotest-updates/main/releases/v156/Dynotest_Update.exe</url><sha256>d63300f14970ff9ea6b9b78622bc780ef6118f9258356b179dcbd5ed6c572fc5</sha256><size>20703232</size><notes>ver1.1.56
-- Thu gọn cửa sổ ÁP DỤNG CVT — CẤU HÌNH MẶC ĐỊNH, bỏ logo trên header.
-- Textbox và combobox cùng chiều rộng/cao, thẳng hai mép và có khoảng cách giữa các hàng.
-- Chiều cao theo nội dung; bỏ khoảng trống dư và chỉ hiện dòng lỗi khi cần.
-- Giữ nguyên nhập thông số, chọn lò xo và áp dụng cấu hình CVT trong phiên chạy.</notes></update>
+<update><version>1.1.57</version><url>https://raw.githubusercontent.com/datlxps013977/dynotest-updates/main/releases/v157/Dynotest_Update.exe</url><sha256>bc7e11a6511179239d5f48edc2fc33b21a1bc8ab29317ec9ebdaee9fb102d1b4</sha256><size>20704256</size><notes>ver1.1.57
+- Sắp xếp lại cột DATABASE XE của GEAR theo mẫu: hai ô FINAL, ba ô nhông/dĩa/bước số có icon, ba hàng lốp/đường kính nằm ngang.
+- Nút TÍNH TOÁN lớn màu xanh và bảng 6 số có icon, ô nhập thẳng hàng, VERSION/SOURCE phía dưới.
+- Nới chiều rộng cột để đọc rõ. Giữ nguyên dữ liệu xe, công thức, sửa bánh răng và cơ chế bấm TÍNH TOÁN mới áp dụng/lưu.
+- Sửa combobox xe dùng trùng hai cơ chế hiển thị khiến JSON không lên danh sách.</notes></update>
