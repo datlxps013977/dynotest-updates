@@ -1,3 +1,5 @@
-<update><version>1.1.61</version><url>https://raw.githubusercontent.com/datlxps013977/dynotest-updates/main/releases/v161/Dynotest_Update.exe</url><sha256>e2f18ca42d1358116eb7302ab2ce22f5fecbe1c668a5e8725f5f552ec67c1983</sha256><size>20707840</size><notes>ver1.1.61
-- Số trên trục X/Y của tất cả chart hiển thị tối đa 1 chữ số thập phân, 57.452 → 57.4 (không làm tròn lên); số nguyên hiển thị 57.
-- Áp dụng DYNO, AFR, CVT, GEAR, Giả lập và biểu đồ in. Chỉ làm gọn chữ số; giữ nguyên vị trí mốc và lưới cố định, dữ liệu đo và công thức.</notes></update>
+<update><version>1.1.62</version><url>https://raw.githubusercontent.com/datlxps013977/dynotest-updates/main/releases/v162/Dynotest_Update.exe</url><sha256>c2d66ae40f596b748634e0e9fd5a52e797fa1e2c1b783c069ebcfece1575a993</sha256><size>20708352</size><notes>ver1.1.62
+- TỈ SỐ CÁC CẤP chia cố định 6 cột trong khung bên trái. Mỗi ô chỉ chiếm 1/6 chiều ngang, kể cả khi RUN chỉ có 1 số.
+- Chỉ tạo ô cho cấp số có dữ liệu, xếp từ trái sang phải; phần còn lại để trống. Giữ nguyên nội dung, công thức và dữ liệu.
+- Bỏ tiêu đề dọc TỈ SỐ TRUYỀN/RPM ở GEAR; giữ số hai trục và chú thích ngang phía trên.
+- Sửa hover/nhấn cho TÍNH TOÁN &amp; CẬP NHẬT CHART của Giả lập; hiệu ứng đổi nền nằm trong template, không bị màu nền cục bộ chặn.</notes></update>
