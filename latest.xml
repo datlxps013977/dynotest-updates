@@ -1,4 +1,9 @@
-<update><version>1.1.65</version><url>https://raw.githubusercontent.com/datlxps013977/dynotest-updates/main/releases/v165/Dynotest_Update.exe</url><sha256>2b29b1006e340f42677d3f47c1f98a7f269bbf49c60457d8079ffa8d46af74d5</sha256><size>20710912</size><notes>ver1.1.65
+<update><version>1.1.66</version><url>https://raw.githubusercontent.com/datlxps013977/dynotest-updates/main/releases/v166/Dynotest_Update.exe</url><sha256>d1c27c0cacd57fc04a2535e5d934ef5d1ea18b722493fd66dc1ca2a4ffd1a9b7</sha256><size>20712448</size><notes>ver1.1.66
+- Tất cả chart khóa thu/phóng khi trống; có dữ liệu thì được phóng to, thu nhỏ tối đa về khung fit ban đầu.
+- Khung tham chiếu cập nhật khi đổi RUN, trục, Settings hoặc dữ liệu live; không lấy khung đang zoom làm mốc mới.
+- Dyno/AFR đồng bộ mốc X, Gear giới hạn cả trục RPM phải; giữ nguyên hover, lưới và dữ liệu.
+
+ver1.1.65
 - Bố cục BẢNG RATIO theo ảnh mẫu: tiêu đề/icon bên trái, ô đơn vị bên phải, header cột có icon và đơn vị.
 - Hai bảng trên–dưới, cột thẳng hàng; RUN mới cyan, RPM mặc định xanh ngọc, TIME mặc định vàng ở header.
 - Giữ header cửa sổ không logo, không dải trắng; giữ dữ liệu, cuộn, tính toán và các thay đổi v164.
