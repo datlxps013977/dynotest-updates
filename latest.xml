@@ -1,4 +1,9 @@
-<update><version>1.1.68</version><url>https://raw.githubusercontent.com/datlxps013977/dynotest-updates/main/releases/v168/Dynotest_Update.exe</url><sha256>7b2f779a827a8c1d57b84fb50f6c4c5c4d1928ce13ab36636ccc756abd94212f</sha256><size>20719104</size><notes>ver1.1.68
+<update><version>1.1.69</version><url>https://raw.githubusercontent.com/datlxps013977/dynotest-updates/main/releases/v169/Dynotest_Update.exe</url><sha256>9b8a82f74cdbdab2fa6b0800e0e5b90c2f0b04a8f7bb4b27c44a60ed338d1899</sha256><size>20720128</size><notes>ver1.1.69
+- Sửa lưới AFR mất sau khi đóng/mở chart: reset cache khi tạo/đóng và sau đổi kích thước.
+- Kiểm tra cả canvas lưới còn đủ line trước khi bỏ qua vẽ; giữ 9 vạch dọc, 4 ngang, đúng vị trí số trục và nét giống Dyno.
+- Giữ nguyên trạng thái menu/checkbox, màu, ghi/xóa live, dữ liệu và các chỉnh sửa v168.
+
+ver1.1.68
 - Icon CVT vector hai puly nối dây curoa, trắng khi tắt và cyan khi active.
 - Chỉ đường GHI DỮ LIỆU AFR/F3 và hover của nó dùng cyan #00D9FF; đường AFR theo RUN (kể cả đo công suất) giữ màu RUN. HP/TQ không đổi.
 - Menu AFR/CVT/GEAR/GIẢ LẬP: mặc định trắng, active cyan theo khung/cửa sổ đang mở, cả chữ và icon.
