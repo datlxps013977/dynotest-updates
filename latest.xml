@@ -1,4 +1,9 @@
-<update><version>1.1.63</version><url>https://raw.githubusercontent.com/datlxps013977/dynotest-updates/main/releases/v163/Dynotest_Update.exe</url><sha256>ff564a958774964a224ce8393f70134167d4760490fe2a41a2b49c74714c34a2</sha256><size>20707840</size><notes>ver1.1.63
+<update><version>1.1.64</version><url>https://raw.githubusercontent.com/datlxps013977/dynotest-updates/main/releases/v164/Dynotest_Update.exe</url><sha256>37ca6d058d4754e827b25a41333fabaabf41dd869e8f262f28a5483a3b9a2ceb</sha256><size>20708864</size><notes>ver1.1.64
+- Dyno và AFR dùng MAX trục X RPM/TIME/SPEED trong Settings cho chart trống, live và RUN mở lại.
+- Bỏ mốc cố định 70/7000/5 ở luồng live và ghi AFR; giữ MIN theo dữ liệu, mở rộng nếu dữ liệu vượt MAX.
+- Lưu Settings áp dụng ngay; không thay đổi RAW, smoothing hay dữ liệu RUN.
+
+ver1.1.63
 - BẢNG RATIO dùng header gọn không logo, vẫn hiển thị tên RUN mới và RUN mặc định.
 - Loại bỏ dải trắng của khung cửa sổ Windows bằng chrome tối riêng; giữ khả năng kéo cửa sổ, đổi kích thước và nút đóng.
 - Giữ toàn bộ các chỉnh sửa v162: ô số chia 6 cột cố định, bỏ tiêu đề dọc GEAR và hover nút tính toán Giả lập.
