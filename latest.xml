@@ -1,4 +1,9 @@
-<update><version>1.1.64</version><url>https://raw.githubusercontent.com/datlxps013977/dynotest-updates/main/releases/v164/Dynotest_Update.exe</url><sha256>37ca6d058d4754e827b25a41333fabaabf41dd869e8f262f28a5483a3b9a2ceb</sha256><size>20708864</size><notes>ver1.1.64
+<update><version>1.1.65</version><url>https://raw.githubusercontent.com/datlxps013977/dynotest-updates/main/releases/v165/Dynotest_Update.exe</url><sha256>2b29b1006e340f42677d3f47c1f98a7f269bbf49c60457d8079ffa8d46af74d5</sha256><size>20710912</size><notes>ver1.1.65
+- Bố cục BẢNG RATIO theo ảnh mẫu: tiêu đề/icon bên trái, ô đơn vị bên phải, header cột có icon và đơn vị.
+- Hai bảng trên–dưới, cột thẳng hàng; RUN mới cyan, RPM mặc định xanh ngọc, TIME mặc định vàng ở header.
+- Giữ header cửa sổ không logo, không dải trắng; giữ dữ liệu, cuộn, tính toán và các thay đổi v164.
+
+ver1.1.64
 - Dyno và AFR dùng MAX trục X RPM/TIME/SPEED trong Settings cho chart trống, live và RUN mở lại.
 - Bỏ mốc cố định 70/7000/5 ở luồng live và ghi AFR; giữ MIN theo dữ liệu, mở rộng nếu dữ liệu vượt MAX.
 - Lưu Settings áp dụng ngay; không thay đổi RAW, smoothing hay dữ liệu RUN.
