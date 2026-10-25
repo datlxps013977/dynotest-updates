@@ -1,5 +1,5 @@
-<update><version>1.1.62</version><url>https://raw.githubusercontent.com/datlxps013977/dynotest-updates/main/releases/v162/Dynotest_Update.exe</url><sha256>c2d66ae40f596b748634e0e9fd5a52e797fa1e2c1b783c069ebcfece1575a993</sha256><size>20708352</size><notes>ver1.1.62
-- TỈ SỐ CÁC CẤP chia cố định 6 cột trong khung bên trái. Mỗi ô chỉ chiếm 1/6 chiều ngang, kể cả khi RUN chỉ có 1 số.
-- Chỉ tạo ô cho cấp số có dữ liệu, xếp từ trái sang phải; phần còn lại để trống. Giữ nguyên nội dung, công thức và dữ liệu.
-- Bỏ tiêu đề dọc TỈ SỐ TRUYỀN/RPM ở GEAR; giữ số hai trục và chú thích ngang phía trên.
-- Sửa hover/nhấn cho TÍNH TOÁN &amp; CẬP NHẬT CHART của Giả lập; hiệu ứng đổi nền nằm trong template, không bị màu nền cục bộ chặn.</notes></update>
+<update><version>1.1.63</version><url>https://raw.githubusercontent.com/datlxps013977/dynotest-updates/main/releases/v163/Dynotest_Update.exe</url><sha256>ff564a958774964a224ce8393f70134167d4760490fe2a41a2b49c74714c34a2</sha256><size>20707840</size><notes>ver1.1.63
+- BẢNG RATIO dùng header gọn không logo, vẫn hiển thị tên RUN mới và RUN mặc định.
+- Loại bỏ dải trắng của khung cửa sổ Windows bằng chrome tối riêng; giữ khả năng kéo cửa sổ, đổi kích thước và nút đóng.
+- Giữ toàn bộ các chỉnh sửa v162: ô số chia 6 cột cố định, bỏ tiêu đề dọc GEAR và hover nút tính toán Giả lập.
+- Không thay đổi bảng dữ liệu, công thức, JSON hay RUN.</notes></update>
