@@ -1,5 +1,3 @@
-<update><version>1.1.60</version><url>https://raw.githubusercontent.com/datlxps013977/dynotest-updates/main/releases/v160/Dynotest_Update.exe</url><sha256>4fce6036df027e643b82391a25876ea7f1f17e72ffe2aa34713a82b796ba7ced</sha256><size>20708352</size><notes>ver1.1.60
-- Khôi phục lưới cố định của GEAR và đồng bộ tất cả chart: DYNO, AFR, CVT, GEAR, Giả lập và biểu đồ in.
-- Số trục X/Y lấy đúng vị trí các đường lưới, tự đổi theo giới hạn dữ liệu/live/zoom/RUN. Cho phép số lẻ, không ép về mốc tròn làm lệch lưới.
-- Hai trục Y của GEAR dùng cùng các hàng lưới. AFR giữ 4 đường ngang; các chart khác giữ 7 đường ngang và 9 đường dọc.
-- Giữ khung vẽ cố định, bỏ vòng refresh thừa để cập nhật số trục. Không thay đổi dữ liệu đo, công thức hay JSON/RUN.</notes></update>
+<update><version>1.1.61</version><url>https://raw.githubusercontent.com/datlxps013977/dynotest-updates/main/releases/v161/Dynotest_Update.exe</url><sha256>e2f18ca42d1358116eb7302ab2ce22f5fecbe1c668a5e8725f5f552ec67c1983</sha256><size>20707840</size><notes>ver1.1.61
+- Số trên trục X/Y của tất cả chart hiển thị tối đa 1 chữ số thập phân, 57.452 → 57.4 (không làm tròn lên); số nguyên hiển thị 57.
+- Áp dụng DYNO, AFR, CVT, GEAR, Giả lập và biểu đồ in. Chỉ làm gọn chữ số; giữ nguyên vị trí mốc và lưới cố định, dữ liệu đo và công thức.</notes></update>
