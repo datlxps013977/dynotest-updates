@@ -1,7 +1,5 @@
-<update><version>1.1.59</version><url>https://raw.githubusercontent.com/datlxps013977/dynotest-updates/main/releases/v159/Dynotest_Update.exe</url><sha256>24fdb3ae3ce084f8b9ba1a4dc289bfd3c844844d25a4da28ce0ee105ba3d6e6d</sha256><size>20707328</size><notes>ver1.1.59
-- TỈ SỐ CÁC CẤP và dòng chú thích chỉ nằm ở cột trái, dưới biểu đồ GEAR.
-- DATABASE XE dùng trọn chiều cao cột phải, không bị phần kết quả phía trái đẩy ra thanh cuộn.
-- Nút TÍNH TOÁN của GEAR dùng nền phẳng, bỏ bóng/gradient; giữ hover và trạng thái nhấn nhẹ.
-- Giữ nguyên dữ liệu đo, công thức, JSON và RUN.
-- Bỏ nền và viền riêng của textbox BÁNH CHỦ ĐỘNG/BÁNH BỊ ĐỘNG; giữ ô bảng và khả năng sửa số.
-- GEAR chart theo mẫu: legend tỉ số/RPM, đường cyan/xám với hai trục Y riêng, lưới nét đứt, vạch chuyển số đỏ và nhãn nằm trong vùng vẽ. Thang tỉ số bắt đầu từ 0; RPM tự căn theo dữ liệu. Hover RPM dùng đúng tọa độ trục phải.</notes></update>
+<update><version>1.1.60</version><url>https://raw.githubusercontent.com/datlxps013977/dynotest-updates/main/releases/v160/Dynotest_Update.exe</url><sha256>4fce6036df027e643b82391a25876ea7f1f17e72ffe2aa34713a82b796ba7ced</sha256><size>20708352</size><notes>ver1.1.60
+- Khôi phục lưới cố định của GEAR và đồng bộ tất cả chart: DYNO, AFR, CVT, GEAR, Giả lập và biểu đồ in.
+- Số trục X/Y lấy đúng vị trí các đường lưới, tự đổi theo giới hạn dữ liệu/live/zoom/RUN. Cho phép số lẻ, không ép về mốc tròn làm lệch lưới.
+- Hai trục Y của GEAR dùng cùng các hàng lưới. AFR giữ 4 đường ngang; các chart khác giữ 7 đường ngang và 9 đường dọc.
+- Giữ khung vẽ cố định, bỏ vòng refresh thừa để cập nhật số trục. Không thay đổi dữ liệu đo, công thức hay JSON/RUN.</notes></update>
