@@ -1,4 +1,11 @@
-<update><version>1.1.66</version><url>https://raw.githubusercontent.com/datlxps013977/dynotest-updates/main/releases/v166/Dynotest_Update.exe</url><sha256>d1c27c0cacd57fc04a2535e5d934ef5d1ea18b722493fd66dc1ca2a4ffd1a9b7</sha256><size>20712448</size><notes>ver1.1.66
+<update><version>1.1.67</version><url>https://raw.githubusercontent.com/datlxps013977/dynotest-updates/main/releases/v167/Dynotest_Update.exe</url><sha256>81e3dea98fde0d1ccb50c644bcaf6268a9e99a76d72fd5c3301edba6ce768113</sha256><size>20715008</size><notes>ver1.1.67
+- Bốn ô MAX theo RUN vừa bật/chọn; không lấy số lớn nhất giữa nhiều RUN đang hiển thị.
+- AFR được áp nền tối/trong suốt ngay từ lúc tạo và trước mọi render, không chớp nền trắng khi mở/hiện/xóa chart.
+- Nhãn MAX HP/TQ trên chart dùng cùng MAX và tọa độ với các ô MAX và danh sách RUN; không tìm MAX từ điểm pixel nữa.
+- Bốn ô MAX cập nhật trong lúc đo từ preview đã đủ mẫu: giữ đỉnh HP/TQ và RPM tương ứng, reset theo lượt mới; không bị RUN cũ lớn hơn che kết quả live.
+- Dùng lại control và cache MAX theo revision; không đọc thêm phần cứng, không đổi RAW hoặc đường biểu đồ. Khi kết thúc dùng kết quả RUN hoàn chỉnh để lưu/mở lại đồng nhất.
+
+ver1.1.66
 - Tất cả chart khóa thu/phóng khi trống; có dữ liệu thì được phóng to, thu nhỏ tối đa về khung fit ban đầu.
 - Khung tham chiếu cập nhật khi đổi RUN, trục, Settings hoặc dữ liệu live; không lấy khung đang zoom làm mốc mới.
 - Dyno/AFR đồng bộ mốc X, Gear giới hạn cả trục RPM phải; giữ nguyên hover, lưới và dữ liệu.
