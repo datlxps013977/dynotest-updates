@@ -1,5 +1,4 @@
-<update><version>1.1.53</version><url>https://raw.githubusercontent.com/datlxps013977/dynotest-updates/main/releases/v153/Dynotest_Update.exe</url><sha256>4a3620c36c790660bfb5a43ea22c5a6ae9dd81e897959e1459b44c8627cfef21</sha256><size>20706304</size><notes>v153 / 1.1.53
-SPEED dùng chung cơ chế hiển thị với RPM: mặc định lọc 120ms, số đổi 10 lần/giây, kim chạy liên tục cùng giá trị lọc. AFR mặc định 250ms và 5 lần/giây. Một bộ cập nhật chung xử lý mỗi kênh một lần; các cửa sổ dùng cùng trạng thái hiển thị.
-Trong ADMIN thêm bảng LỌC VÀ NHỊP HIỂN THỊ cho RPM, SPEED và AFR: lọc 0–2000ms (0 là tắt lọc), nhịp đổi số 1–60 lần/giây. Lưu trong Display của JSON cài đặt hiện có, áp dụng ngay và nhớ khi mở lại.
-Kim vàng MAX của RPM/SPEED dùng chung tâm, góc và phần thanh chữ nhật bo góc với kim trực tiếp, bỏ đuôi nhọn.
-Thanh HP/TOQ có vạch MAX của lượt đo vừa hoàn tất; giữ nguyên khi đo lượt tiếp theo và chỉ cập nhật khi lượt mới hoàn tất. Không thay đổi RAW/RUN, công thức, điều kiện MIN/MAX, redline và học AFR.</notes></update>
+<update><version>1.1.54</version><url>https://raw.githubusercontent.com/datlxps013977/dynotest-updates/main/releases/v154/Dynotest_Update.exe</url><sha256>6691fff1de3e9ba1e0f55fedd25ca1fd439cb6b2cb4848001a94f755d0798ad9</sha256><size>20705280</size><notes>ver1.1.54
+- Nút KẾT NỐI: chữ và icon màu xanh lá cây; nút NGẮT KẾT NỐI: chữ và icon màu đỏ.
+- Chọn hoặc đổi EXE ECU mở đúng thư mục của EXE đã lưu riêng cho từng phiên bản REDLEO/ATE. Nếu EXE bị mất nhưng thư mục còn, vẫn mở thư mục đó.
+- Bấm Huỷ giữ cửa sổ chọn ECU và đường dẫn cũ. Giữ nguyên bộ lọc hiển thị, dữ liệu đo, JSON và RUN.</notes></update>
