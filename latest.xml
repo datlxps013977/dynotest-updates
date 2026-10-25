@@ -1,4 +1,5 @@
-<update><version>1.1.54</version><url>https://raw.githubusercontent.com/datlxps013977/dynotest-updates/main/releases/v154/Dynotest_Update.exe</url><sha256>6691fff1de3e9ba1e0f55fedd25ca1fd439cb6b2cb4848001a94f755d0798ad9</sha256><size>20705280</size><notes>ver1.1.54
-- Nút KẾT NỐI: chữ và icon màu xanh lá cây; nút NGẮT KẾT NỐI: chữ và icon màu đỏ.
-- Chọn hoặc đổi EXE ECU mở đúng thư mục của EXE đã lưu riêng cho từng phiên bản REDLEO/ATE. Nếu EXE bị mất nhưng thư mục còn, vẫn mở thư mục đó.
-- Bấm Huỷ giữ cửa sổ chọn ECU và đường dẫn cũ. Giữ nguyên bộ lọc hiển thị, dữ liệu đo, JSON và RUN.</notes></update>
+<update><version>1.1.55</version><url>https://raw.githubusercontent.com/datlxps013977/dynotest-updates/main/releases/v155/Dynotest_Update.exe</url><sha256>f006f0ca509ed6174e2ed3b493abbdf2d7e08ee4aad1df56f4764c5d21d2b979</sha256><size>20703232</size><notes>ver1.1.55
+- Đồng bộ các thông báo, cảnh báo, lỗi và xác nhận theo cửa sổ Settings: cùng nền, header không logo, chữ và style nút.
+- Bỏ khung tròn, họa tiết và lớp cửa sổ trong suốt phủ màn hình. Thông báo gọn ở giữa, nội dung dài cuộn riêng, nút vẫn luôn nhìn thấy.
+- Cửa sổ lưu RUN và chi tiết cập nhật dùng header không logo. Giữ các lựa chọn OK/Huỷ/Có/Không, phím xác nhận và BIT3 lưu RUN.
+- Giữ nguyên nền màn hình chính, dữ liệu đo, JSON, RUN và các bộ lọc.</notes></update>
