@@ -1,5 +1,7 @@
-<update><version>1.1.57</version><url>https://raw.githubusercontent.com/datlxps013977/dynotest-updates/main/releases/v157/Dynotest_Update.exe</url><sha256>bc7e11a6511179239d5f48edc2fc33b21a1bc8ab29317ec9ebdaee9fb102d1b4</sha256><size>20704256</size><notes>ver1.1.57
-- Sắp xếp lại cột DATABASE XE của GEAR theo mẫu: hai ô FINAL, ba ô nhông/dĩa/bước số có icon, ba hàng lốp/đường kính nằm ngang.
-- Nút TÍNH TOÁN lớn màu xanh và bảng 6 số có icon, ô nhập thẳng hàng, VERSION/SOURCE phía dưới.
-- Nới chiều rộng cột để đọc rõ. Giữ nguyên dữ liệu xe, công thức, sửa bánh răng và cơ chế bấm TÍNH TOÁN mới áp dụng/lưu.
-- Sửa combobox xe dùng trùng hai cơ chế hiển thị khiến JSON không lên danh sách.</notes></update>
+<update><version>1.1.58</version><url>https://raw.githubusercontent.com/datlxps013977/dynotest-updates/main/releases/v158/Dynotest_Update.exe</url><sha256>0d35e45bb5285085f2b810ce1e71bbd2e11b2abcab59193cdd6a6564c6621c37</sha256><size>20707328</size><notes>ver1.1.58
+- Sửa khoảng trống như hàng rỗng cuối danh sách DATABASE XE bằng cuộn theo pixel và giới hạn popup theo nội dung.
+- TỈ SỐ CÁC CẤP hiển thị từng ô cho từng cấp số thực tế nhận diện trong RUN: số, tỉ số đo, tốc độ và nhãn đánh giá theo mẫu. Rê chuột để xem thêm tham chiếu, dải tốc độ và điểm đá số.
+- Có 4 cấp số thì hiện 4 ô; giữ nguyên công thức, bộ nhận diện đá số và dữ liệu JSON/RUN.
+- Căn lại toàn bộ icon bánh răng của GEAR bằng hình học đồng tâm.
+- Bỏ RPM BIỂU ĐỒ MIN/MAX/STEP trong Cài đặt và JSON; tự gỡ ba khóa cũ khi mở cấu hình, AFR dùng chung trục X DYNO.
+- Admin có nút KHÔI PHỤC TẤT CẢ JSON MẪU: khôi phục đồng thời cài đặt và database xe từ mẫu mới trong EXE, sao lưu file cũ. Mẫu cài đặt có đủ bộ lọc và lựa chọn HP/TOQ/AFR hiện tại.</notes></update>
