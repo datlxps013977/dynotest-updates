@@ -1,5 +1,5 @@
-<update><version>1.1.55</version><url>https://raw.githubusercontent.com/datlxps013977/dynotest-updates/main/releases/v155/Dynotest_Update.exe</url><sha256>f006f0ca509ed6174e2ed3b493abbdf2d7e08ee4aad1df56f4764c5d21d2b979</sha256><size>20703232</size><notes>ver1.1.55
-- Đồng bộ các thông báo, cảnh báo, lỗi và xác nhận theo cửa sổ Settings: cùng nền, header không logo, chữ và style nút.
-- Bỏ khung tròn, họa tiết và lớp cửa sổ trong suốt phủ màn hình. Thông báo gọn ở giữa, nội dung dài cuộn riêng, nút vẫn luôn nhìn thấy.
-- Cửa sổ lưu RUN và chi tiết cập nhật dùng header không logo. Giữ các lựa chọn OK/Huỷ/Có/Không, phím xác nhận và BIT3 lưu RUN.
-- Giữ nguyên nền màn hình chính, dữ liệu đo, JSON, RUN và các bộ lọc.</notes></update>
+<update><version>1.1.56</version><url>https://raw.githubusercontent.com/datlxps013977/dynotest-updates/main/releases/v156/Dynotest_Update.exe</url><sha256>d63300f14970ff9ea6b9b78622bc780ef6118f9258356b179dcbd5ed6c572fc5</sha256><size>20703232</size><notes>ver1.1.56
+- Thu gọn cửa sổ ÁP DỤNG CVT — CẤU HÌNH MẶC ĐỊNH, bỏ logo trên header.
+- Textbox và combobox cùng chiều rộng/cao, thẳng hai mép và có khoảng cách giữa các hàng.
+- Chiều cao theo nội dung; bỏ khoảng trống dư và chỉ hiện dòng lỗi khi cần.
+- Giữ nguyên nhập thông số, chọn lò xo và áp dụng cấu hình CVT trong phiên chạy.</notes></update>
