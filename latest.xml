@@ -1,4 +1,11 @@
-<update><version>1.1.75</version><url>https://raw.githubusercontent.com/datlxps013977/dynotest-updates/main/releases/v175/Dynotest_Update.exe</url><sha256>379c707442a1e3566027dea4c37361f17da0a4b28d4a59ecc0ae3228e63b1648</sha256><size>20729344</size><notes>ver1.1.75
+<update><version>1.1.76</version><url>https://raw.githubusercontent.com/datlxps013977/dynotest-updates/main/releases/v176/Dynotest_Update.exe</url><sha256>f5eb1da1af657fe04820f4e2d7fc5cc912d33a1dc2246ee4f1b0a9095f629a49</sha256><size>20732928</size><notes>ver1.1.76
+- Nền màn hình chính carbon tối dạng đan nhỏ, vẽ vector tĩnh; không thêm timer/ảnh tải ngoài, giữ độ tương phản đồng hồ và các ô.
+- Trong Auto Tune, khi tắt phần mềm ECU hiện nút MỞ LẠI PHẦN MỀM ECU. Dùng đúng EXE/phiên bản đã chọn, không mở lại bảng chọn hoặc tạo lại Auto Tune.
+- Mở lại ở luồng nền, chặn bấm trùng, nối lại PID/bộ đọc. Thất bại vẫn cho thử lại. Giữ bảng target/correction và lựa chọn người dùng.
+- Khi phần mềm ECU tắt, hủy reader cũ, bỏ mẫu học đang tích lũy và khóa Execute. Phản hồi cũ không ghi vào phiên mở lại; đóng Auto Tune cũng hủy phiên.
+- Không hiện nút khi chỉ ngắt ECU mà phần mềm ECU còn chạy. Giữ F3/F4/F5/F6 và dữ liệu JSON/RUN.
+
+ver1.1.75
 - Đổi phím tắt theo bàn phím đang dùng: F3 đo công suất, F4 dừng đo, F5 ghi AFR, F6 ngừng ghi AFR.
 - Cập nhật tooltip; giữ định tuyến trên cửa sổ/chart/ô nhập, điều kiện bật nút, chống nhấn giữ và Alt+F4. Bỏ phím F9–F12 cũ.
 - Giữ các sửa RUN_28 và chức năng v174; không thay dữ liệu đo hoặc JSON/RUN.
