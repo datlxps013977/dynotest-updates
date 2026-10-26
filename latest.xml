@@ -1,4 +1,10 @@
-<update><version>1.1.69</version><url>https://raw.githubusercontent.com/datlxps013977/dynotest-updates/main/releases/v169/Dynotest_Update.exe</url><sha256>9b8a82f74cdbdab2fa6b0800e0e5b90c2f0b04a8f7bb4b27c44a60ed338d1899</sha256><size>20720128</size><notes>ver1.1.69
+<update><version>1.1.70</version><url>https://raw.githubusercontent.com/datlxps013977/dynotest-updates/main/releases/v170/Dynotest_Update.exe</url><sha256>7a971ba0a90540ea7c45bb875900a9ffc80fd307ba3683b886fe11aaa68c7939</sha256><size>20722176</size><notes>ver1.1.70
+- Menu CHART mở ngay, không chờ kết nối/status/BIT4; bấm lại đưa cửa sổ đang mở lên trước.
+- Active CHART chỉ theo cửa sổ mở/đóng. Status OFF lặp lại không đóng chart vừa mở bằng menu trong lúc chờ xác nhận.
+- Nếu mở chart offline, sau kết nối và nhận status đầu tiên gửi 4008 với BIT4 ON, giữ các bit khác. Không gửi trước khi biết status, không lặp lệnh mỗi frame.
+- Khi đã xác nhận BIT4 ON, phần cứng vẫn điều khiển ON mở/OFF đóng như cũ; đóng chart gửi BIT4 OFF như cũ. Giữ điều kiện đo công suất và RAW.
+
+ver1.1.69
 - Sửa lưới AFR mất sau khi đóng/mở chart: reset cache khi tạo/đóng và sau đổi kích thước.
 - Kiểm tra cả canvas lưới còn đủ line trước khi bỏ qua vẽ; giữ 9 vạch dọc, 4 ngang, đúng vị trí số trục và nét giống Dyno.
 - Giữ nguyên trạng thái menu/checkbox, màu, ghi/xóa live, dữ liệu và các chỉnh sửa v168.

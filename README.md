@@ -2,12 +2,12 @@
 
 Kênh cập nhật công khai chính thức. Source code giữ trong repo riêng tư.
 
-## Bản hiện tại: ver1.1.69
+## Bản hiện tại: ver1.1.70
 
-Sửa lưới AFR bị mất sau khi đóng/mở chart: reset dấu nhớ vị trí khi tạo/đóng hoặc đổi kích thước, đồng thời kiểm tra canvas còn đủ đường trước khi bỏ qua vẽ lại. Giữ đúng 9 vạch dọc, 4 vạch ngang, nét đứt và số trục khớp lưới. Không đổi dữ liệu, màu hay chức năng menu/checkbox/ghi/xóa live từ v168.
+Menu CHART mở ngay kể cả offline, chưa có status hoặc BIT4 OFF; bấm lại khôi phục/đưa cửa sổ hiện có lên trước. Active chỉ theo cửa sổ mở/đóng. Nếu chart đã mở trước khi kết nối, gửi BIT4 ON sau status hợp lệ đầu tiên, OR bit để giữ các trạng thái khác và không gửi lặp mỗi frame. Khi phần cứng xác nhận ON, BIT ON/OFF vẫn mở/đóng chart; nút X gửi OFF như trước. Không đổi điều kiện đo, RAW hay tính toán. Giữ sửa lưới AFR v169.
 
 Bản phát hành đã qua kiểm tra Windows, quét Defender cho ứng dụng và bộ cập nhật, kiểm tra giữ JSON/RUN và khởi động lại.
 
 Trong SETTINGS, bấm ↻ để kiểm tra rồi chọn CẬP NHẬT.
 
-[Tải bộ cập nhật v169](releases/v169/Dynotest_Update.exe) · [SHA-256](releases/v169/SHA256.txt) · [Kiểm tra giữ dữ liệu](releases/v169/update-checks.txt).
+[Tải bộ cập nhật v170](releases/v170/Dynotest_Update.exe) · [SHA-256](releases/v170/SHA256.txt) · [Kiểm tra giữ dữ liệu](releases/v170/update-checks.txt).
