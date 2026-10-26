@@ -1,4 +1,9 @@
-<update><version>1.1.73</version><url>https://raw.githubusercontent.com/datlxps013977/dynotest-updates/main/releases/v173/Dynotest_Update.exe</url><sha256>7453f700030d48950a33caa40819ae64d93c99e369b090d8079d8db23e890203</sha256><size>20727296</size><notes>ver1.1.73
+<update><version>1.1.74</version><url>https://raw.githubusercontent.com/datlxps013977/dynotest-updates/main/releases/v174/Dynotest_Update.exe</url><sha256>5f2e0028eab44a73b6e1baa7325e92319ff805e47c3e639860dac918b650dd87</sha256><size>20728320</size><notes>ver1.1.74
+- Sửa nhận thiếu số trên RUN_28: bước giảm tỉ số lớn được phép dao động ở mỗi bậc tối đa 1/6 độ tách bậc, trong khoảng 3,5–5%, thay vì cố định 3,5%.
+- Giữ toàn bộ điều kiện giảm RPM, phục hồi, tốc độ tăng, khoảng mất mẫu và chống lặp; không ép số theo database hay số cấp người dùng khai báo.
+- RUN_28 nhận 4 lần sang số và đủ 5 cấp; không thay RAW, HP/TOQ, smoothing hay dữ liệu lưu.
+
+ver1.1.73
 - Đổi phím tắt: F9 đo công suất, F10 dừng đo, F11 ghi AFR, F12 ngừng ghi. Nhận tại cửa sổ, gồm chart/ô nhập; giữ điều kiện đo, chống lặp và Alt+F4.
 - AFR live ghi riêng áp dụng smoothing ChartDyno trên bản sao X/Y trước khi giảm điểm vẽ; hover cùng dữ liệu đã làm mượt. Giữ mẫu gốc và màu cyan, không lọc RUN hai lần.
 - HP/TOQ dùng chung timer hiển thị, bộ lọc và nhịp SPEED (mặc định 120 ms / 10 lần mỗi giây); số và thanh dùng cùng nguồn lọc. Không đổi RAW, MAX hoặc RUN.
