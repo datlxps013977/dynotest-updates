@@ -1,4 +1,10 @@
-<update><version>1.1.76</version><url>https://raw.githubusercontent.com/datlxps013977/dynotest-updates/main/releases/v176/Dynotest_Update.exe</url><sha256>f5eb1da1af657fe04820f4e2d7fc5cc912d33a1dc2246ee4f1b0a9095f629a49</sha256><size>20732928</size><notes>ver1.1.76
+<update><version>1.1.77</version><url>https://raw.githubusercontent.com/datlxps013977/dynotest-updates/main/releases/v177/Dynotest_Update.exe</url><sha256>12cb39c4130907d6c5b5a5f46e8df7e5012aa1c38ae594c1ee73fba03adea520</sha256><size>20734464</size><notes>ver1.1.77
+- Bỏ nút mở lại ECU riêng. Bấm trực tiếp CHƯA BẬT PHẦN MỀM ECU để mở đúng EXE đã chọn; hỗ trợ Enter/Space, chỉ cho mở khi phần mềm đã tắt.
+- Giữ Auto Tune và target/correction, chống bấm trùng, khóa phản hồi cũ, cho thử lại nếu mở lỗi.
+- Nút KẾT NỐI có viền xanh lá, NGẮT KẾT NỐI có viền đỏ đồng bộ chữ/icon; hover vẫn giữ đúng màu viền.
+- Giữ nền carbon, phím F3–F6 và JSON/RUN.
+
+ver1.1.76
 - Nền màn hình chính carbon tối dạng đan nhỏ, vẽ vector tĩnh; không thêm timer/ảnh tải ngoài, giữ độ tương phản đồng hồ và các ô.
 - Trong Auto Tune, khi tắt phần mềm ECU hiện nút MỞ LẠI PHẦN MỀM ECU. Dùng đúng EXE/phiên bản đã chọn, không mở lại bảng chọn hoặc tạo lại Auto Tune.
 - Mở lại ở luồng nền, chặn bấm trùng, nối lại PID/bộ đọc. Thất bại vẫn cho thử lại. Giữ bảng target/correction và lựa chọn người dùng.
