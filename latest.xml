@@ -1,4 +1,9 @@
-<update><version>1.1.74</version><url>https://raw.githubusercontent.com/datlxps013977/dynotest-updates/main/releases/v174/Dynotest_Update.exe</url><sha256>5f2e0028eab44a73b6e1baa7325e92319ff805e47c3e639860dac918b650dd87</sha256><size>20728320</size><notes>ver1.1.74
+<update><version>1.1.75</version><url>https://raw.githubusercontent.com/datlxps013977/dynotest-updates/main/releases/v175/Dynotest_Update.exe</url><sha256>379c707442a1e3566027dea4c37361f17da0a4b28d4a59ecc0ae3228e63b1648</sha256><size>20729344</size><notes>ver1.1.75
+- Đổi phím tắt theo bàn phím đang dùng: F3 đo công suất, F4 dừng đo, F5 ghi AFR, F6 ngừng ghi AFR.
+- Cập nhật tooltip; giữ định tuyến trên cửa sổ/chart/ô nhập, điều kiện bật nút, chống nhấn giữ và Alt+F4. Bỏ phím F9–F12 cũ.
+- Giữ các sửa RUN_28 và chức năng v174; không thay dữ liệu đo hoặc JSON/RUN.
+
+ver1.1.74
 - Sửa nhận thiếu số trên RUN_28: bước giảm tỉ số lớn được phép dao động ở mỗi bậc tối đa 1/6 độ tách bậc, trong khoảng 3,5–5%, thay vì cố định 3,5%.
 - Giữ toàn bộ điều kiện giảm RPM, phục hồi, tốc độ tăng, khoảng mất mẫu và chống lặp; không ép số theo database hay số cấp người dùng khai báo.
 - RUN_28 nhận 4 lần sang số và đủ 5 cấp; không thay RAW, HP/TOQ, smoothing hay dữ liệu lưu.
