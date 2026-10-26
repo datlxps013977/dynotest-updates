@@ -1,93 +1,14 @@
-<update><version>1.1.78</version><url>https://raw.githubusercontent.com/datlxps013977/dynotest-updates/main/releases/v178/Dynotest_Update.exe</url><sha256>ae5c99e730851f09fa9e5fb7599826beeaa56e9cad6d9e844f105764fa782d72</sha256><size>20737536</size><notes>ver1.1.78
-- Thêm bốn LED CPU xanh lá, AFR tím, RPM vàng cam và SPEED xanh cyan giữa hai đồng hồ. Theo dữ liệu phần cứng gốc; giữ sáng tối đa 1 giây chống nháy, tắt khi mất dữ liệu/ngắt kết nối. CPU thể hiện luồng dữ liệu, không phải mức sử dụng CPU máy tính.
-- Nền header/footer màn hình chính dùng carbon đan chéo 45 độ, sợi nhỏ hơn phần giữa, cạnh sáng nhẹ và bóng chìm tông đen xanh.
-- Giữ carbon phần giữa, kích thước/bố cục/chữ và điều khiển; nền vector tĩnh không thêm timer hay ảnh ngoài.
-- Giữ thao tác mở ECU từ trạng thái, màu viền kết nối và dữ liệu JSON/RUN.
-
-ver1.1.77
-- Bỏ nút mở lại ECU riêng. Bấm trực tiếp CHƯA BẬT PHẦN MỀM ECU để mở đúng EXE đã chọn; hỗ trợ Enter/Space, chỉ cho mở khi phần mềm đã tắt.
-- Giữ Auto Tune và target/correction, chống bấm trùng, khóa phản hồi cũ, cho thử lại nếu mở lỗi.
-- Nút KẾT NỐI có viền xanh lá, NGẮT KẾT NỐI có viền đỏ đồng bộ chữ/icon; hover vẫn giữ đúng màu viền.
-- Giữ nền carbon, phím F3–F6 và JSON/RUN.
-
-ver1.1.76
-- Nền màn hình chính carbon tối dạng đan nhỏ, vẽ vector tĩnh; không thêm timer/ảnh tải ngoài, giữ độ tương phản đồng hồ và các ô.
-- Trong Auto Tune, khi tắt phần mềm ECU hiện nút MỞ LẠI PHẦN MỀM ECU. Dùng đúng EXE/phiên bản đã chọn, không mở lại bảng chọn hoặc tạo lại Auto Tune.
-- Mở lại ở luồng nền, chặn bấm trùng, nối lại PID/bộ đọc. Thất bại vẫn cho thử lại. Giữ bảng target/correction và lựa chọn người dùng.
-- Khi phần mềm ECU tắt, hủy reader cũ, bỏ mẫu học đang tích lũy và khóa Execute. Phản hồi cũ không ghi vào phiên mở lại; đóng Auto Tune cũng hủy phiên.
-- Không hiện nút khi chỉ ngắt ECU mà phần mềm ECU còn chạy. Giữ F3/F4/F5/F6 và dữ liệu JSON/RUN.
-
-ver1.1.75
-- Đổi phím tắt theo bàn phím đang dùng: F3 đo công suất, F4 dừng đo, F5 ghi AFR, F6 ngừng ghi AFR.
-- Cập nhật tooltip; giữ định tuyến trên cửa sổ/chart/ô nhập, điều kiện bật nút, chống nhấn giữ và Alt+F4. Bỏ phím F9–F12 cũ.
-- Giữ các sửa RUN_28 và chức năng v174; không thay dữ liệu đo hoặc JSON/RUN.
-
-ver1.1.74
-- Sửa nhận thiếu số trên RUN_28: bước giảm tỉ số lớn được phép dao động ở mỗi bậc tối đa 1/6 độ tách bậc, trong khoảng 3,5–5%, thay vì cố định 3,5%.
-- Giữ toàn bộ điều kiện giảm RPM, phục hồi, tốc độ tăng, khoảng mất mẫu và chống lặp; không ép số theo database hay số cấp người dùng khai báo.
-- RUN_28 nhận 4 lần sang số và đủ 5 cấp; không thay RAW, HP/TOQ, smoothing hay dữ liệu lưu.
-
-ver1.1.73
-- Đổi phím tắt: F9 đo công suất, F10 dừng đo, F11 ghi AFR, F12 ngừng ghi. Nhận tại cửa sổ, gồm chart/ô nhập; giữ điều kiện đo, chống lặp và Alt+F4.
-- AFR live ghi riêng áp dụng smoothing ChartDyno trên bản sao X/Y trước khi giảm điểm vẽ; hover cùng dữ liệu đã làm mượt. Giữ mẫu gốc và màu cyan, không lọc RUN hai lần.
-- HP/TOQ dùng chung timer hiển thị, bộ lọc và nhịp SPEED (mặc định 120 ms / 10 lần mỗi giây); số và thanh dùng cùng nguồn lọc. Không đổi RAW, MAX hoặc RUN.
-- Sửa cầu nối Ultra Pro1 10.3.1.3: RT nằm ở TepyDeyModule, không phải TypeDef. Bộ ECU sửa DLL riêng đi kèm; cập nhật Dyno không tự thay DLL trong thư mục ECU.
-
-ver1.1.72
-- Bấm NGẮT KẾT NỐI cũng giữ nguyên chart và active, chỉ dừng phiên kết nối phần cứng.
-- Kết nối lại sẽ đồng bộ BIT CHART ON sau status hợp lệ; BIT OFF đã xác nhận và nút X vẫn đóng chart. Thoát ứng dụng vẫn đóng cửa sổ phụ.
-- Giữ ba trạng thái tiếng Việt và toàn bộ dữ liệu/chức năng từ v171.
-
-ver1.1.71
-- Thử kết nối lại không đóng chart đang mở; giữ active và đồng bộ BIT4 ON khi nhận lại status. Ngắt kết nối chủ động vẫn giữ cách đóng chart cũ.
-- Trạng thái kết nối Dyno chỉ hiển thị ĐANG KẾT NỐI / ĐÃ KẾT NỐI / NGẮT KẾT NỐI.
-- Bỏ mã packet và nội dung kỹ thuật 4001/1002/AUTH/reconnect-error khỏi nhãn trạng thái, kể cả lúc thử lại kết nối và splash.
-- Giữ chỉ báo màu vàng/xanh/đỏ, thông tin COM bên dưới và toàn bộ luồng kết nối/BIT/đo từ v170.
-
-ver1.1.70
-- Menu CHART mở ngay, không chờ kết nối/status/BIT4; bấm lại đưa cửa sổ đang mở lên trước.
-- Active CHART chỉ theo cửa sổ mở/đóng. Status OFF lặp lại không đóng chart vừa mở bằng menu trong lúc chờ xác nhận.
-- Nếu mở chart offline, sau kết nối và nhận status đầu tiên gửi 4008 với BIT4 ON, giữ các bit khác. Không gửi trước khi biết status, không lặp lệnh mỗi frame.
-- Khi đã xác nhận BIT4 ON, phần cứng vẫn điều khiển ON mở/OFF đóng như cũ; đóng chart gửi BIT4 OFF như cũ. Giữ điều kiện đo công suất và RAW.
-
-ver1.1.69
-- Sửa lưới AFR mất sau khi đóng/mở chart: reset cache khi tạo/đóng và sau đổi kích thước.
-- Kiểm tra cả canvas lưới còn đủ line trước khi bỏ qua vẽ; giữ 9 vạch dọc, 4 ngang, đúng vị trí số trục và nét giống Dyno.
-- Giữ nguyên trạng thái menu/checkbox, màu, ghi/xóa live, dữ liệu và các chỉnh sửa v168.
-
-ver1.1.68
-- Icon CVT vector hai puly nối dây curoa, trắng khi tắt và cyan khi active.
-- Chỉ đường GHI DỮ LIỆU AFR/F3 và hover của nó dùng cyan #00D9FF; đường AFR theo RUN (kể cả đo công suất) giữ màu RUN. HP/TQ không đổi.
-- Menu AFR/CVT/GEAR/GIẢ LẬP: mặc định trắng, active cyan theo khung/cửa sổ đang mở, cả chữ và icon.
-- Nút AFR trước CVT mở/ẩn khung AFR, có trạng thái active cyan; checkbox AFR chỉ bật/tắt đường RUN và hover của đường RUN.
-- Lưu riêng DynoAfrPanelVisible và DynoShowAfr vào JSON; file cũ giữ trạng thái hiển thị như trước.
-- XOÁ BIỂU ĐỒ LIVE chỉ xóa đường live hiện tại, giữ RUN đã lưu, target và dữ liệu gốc; ghi vẫn tiếp tục bằng mẫu mới.
-- Bấm ghi AFR tự mở khung/menu active, tắt checkbox RUN AFR và xóa live cũ; đường live mới vẫn vẽ. Header cân theo 4 nút. Giữ các sửa MAX/live/nền AFR v167.
-
-ver1.1.67
-- Bốn ô MAX theo RUN vừa bật/chọn; không lấy số lớn nhất giữa nhiều RUN đang hiển thị.
-- AFR được áp nền tối/trong suốt ngay từ lúc tạo và trước mọi render, không chớp nền trắng khi mở/hiện/xóa chart.
-- Nhãn MAX HP/TQ trên chart dùng cùng MAX và tọa độ với các ô MAX và danh sách RUN; không tìm MAX từ điểm pixel nữa.
-- Bốn ô MAX cập nhật trong lúc đo từ preview đã đủ mẫu: giữ đỉnh HP/TQ và RPM tương ứng, reset theo lượt mới; không bị RUN cũ lớn hơn che kết quả live.
-- Dùng lại control và cache MAX theo revision; không đọc thêm phần cứng, không đổi RAW hoặc đường biểu đồ. Khi kết thúc dùng kết quả RUN hoàn chỉnh để lưu/mở lại đồng nhất.
-
-ver1.1.66
-- Tất cả chart khóa thu/phóng khi trống; có dữ liệu thì được phóng to, thu nhỏ tối đa về khung fit ban đầu.
-- Khung tham chiếu cập nhật khi đổi RUN, trục, Settings hoặc dữ liệu live; không lấy khung đang zoom làm mốc mới.
-- Dyno/AFR đồng bộ mốc X, Gear giới hạn cả trục RPM phải; giữ nguyên hover, lưới và dữ liệu.
-
-ver1.1.65
-- Bố cục BẢNG RATIO theo ảnh mẫu: tiêu đề/icon bên trái, ô đơn vị bên phải, header cột có icon và đơn vị.
-- Hai bảng trên–dưới, cột thẳng hàng; RUN mới cyan, RPM mặc định xanh ngọc, TIME mặc định vàng ở header.
-- Giữ header cửa sổ không logo, không dải trắng; giữ dữ liệu, cuộn, tính toán và các thay đổi v164.
-
-ver1.1.64
-- Dyno và AFR dùng MAX trục X RPM/TIME/SPEED trong Settings cho chart trống, live và RUN mở lại.
-- Bỏ mốc cố định 70/7000/5 ở luồng live và ghi AFR; giữ MIN theo dữ liệu, mở rộng nếu dữ liệu vượt MAX.
-- Lưu Settings áp dụng ngay; không thay đổi RAW, smoothing hay dữ liệu RUN.
-
-ver1.1.63
-- BẢNG RATIO dùng header gọn không logo, vẫn hiển thị tên RUN mới và RUN mặc định.
-- Loại bỏ dải trắng của khung cửa sổ Windows bằng chrome tối riêng; giữ khả năng kéo cửa sổ, đổi kích thước và nút đóng.
-- Giữ toàn bộ các chỉnh sửa v162: ô số chia 6 cột cố định, bỏ tiêu đề dọc GEAR và hover nút tính toán Giả lập.
-- Không thay đổi bảng dữ liệu, công thức, JSON hay RUN.</notes></update>
+<update><version>1.1.79</version><url>https://raw.githubusercontent.com/datlxps013977/dynotest-updates/main/releases/v179/Dynotest_Update.exe</url><sha256>bd88115fac4dbe75eb3ade371831cdaa94cc437df9e8d1e79b39aa12e4195cef</sha256><size>20321280</size><notes>ver1.1.79
+- Bỏ tooltip trỏ chuột trên toàn bộ sáu đèn trạng thái.
+- Auto Tune: cảnh báo sai phiên bản rút gọn thành SAI PHIÊN BẢN, nằm cạnh trạng thái kết nối ECU, ngăn bằng |; không còn chiếm hàng riêng. Khi không cảnh báo, dấu | cũng ẩn.
+- Giãn hai đồng hồ thêm: khoảng giữa 160px để cân đối cụm sáu box đèn.
+- Box AFR thêm dòng AFR 1, AFR 2 hoặc AFR 1 + 2 theo x[12]/x[13] trong gói 1003; một trong hai kênh ON thì đèn sáng, cả hai OFF hoặc mất trạng thái thì tắt và hiện --.
+- Carbon phần giữa rõ sợi hơn: tăng nhẹ tương phản đan và nét sợi 0.75px, cạnh tối chìm giúp nổi 3D rõ hơn; giữ tông tối và carbon header/footer riêng.
+- Thêm box NGUỒN điện theo BRT: x[3] báo AC, x[4] báo ắc quy trong gói 1003; có nguồn thì đèn xanh dương sáng, hiện AC hoặc ẮC QUY (ưu tiên AC nếu cả hai ON). Cả hai OFF hoặc hết hạn thì đèn tắt và hiện --. Sáu box cùng hàng/cột và căn giữa hai đồng hồ.
+- Đèn RPM/SPEED/AFR1 lấy trạng thái thật từ gói 1003 theo BRT x[9]/x[10]/x[12], không dựa vào số đo lớn hơn 0. Thêm đèn REMOTE tím từ x[11], các box đều nhau căn giữa.
+- Bỏ gói 1003 thiếu/sai trạng thái, hết hạn sau ít nhất 3 giây hoặc 3 nhịp heartbeat; ngắt kết nối xoá trạng thái. Không gửi thêm lệnh và không đổi RAW/bit điều khiển.
+- Tăng nhẹ độ sáng viền bốn box cột trái thành xanh thép #2A647C, giữ nét 1px để nổi trên nền carbon.
+- Cụm LED theo ảnh mẫu: đèn tròn 36px, vòng 44px và quầng sáng nhẹ, chữ trắng đậm 18px cùng cột; bốn hàng bằng nhau, mỗi hàng có nền đen xanh bo góc riêng và viền tối mảnh.
+- Giãn hai đồng hồ sang hai bên bằng khoảng giữa 160px thay 20px; cụm đèn giữ nguyên tâm và có khoảng trống rộng hơn.
+- Căn cả cụm chính giữa hai đồng hồ theo chiều ngang và chiều dọc; CPU xanh lá, AFR cyan, RPM vàng, SPEED đỏ.
+- Mặt kính và quầng sáng dùng gradient tĩnh đã freeze, chỉ cập nhật khi trạng thái đổi. Giữ điều kiện hoạt động từng kênh và dữ liệu đo/JSON/RUN.</notes></update>

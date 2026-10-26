@@ -1,0 +1,8 @@
+v179 package built from user-supplied Windows Release.zip (application 1.1.79.0, x86).
+Runtime DLLs reused from previous supplied installation; referenced assembly versions and EXE.config verified identical to v178; x86 Skia/HarfBuzz native architectures checked.
+PASS: embedded payload manifest file sizes/SHA-256 verified; excludes JSON/RUN, saved EXE paths, backups, uninstallers and debug files.
+PASS: exact update engine, 15 checks on .NET 8/Linux: changed-only replacement, untouched matching DLLs/timestamps, JSON/RUN retained, no-op repeat, rollback, tampered payload/path rejection.
+The updater uses the unchanged net48 engine/UI, compiled against .NET Framework 4.8 references.
+User reported testing the app on Windows. No new GitHub Actions, hosted Windows integration test, Defender scan, or restart test was run for this package. Earlier v178 native checks do not certify v179.
+PASS: actual full 34-file payload extracted and applied in isolated .NET 8/Linux test: only changed EXE replaced, every installed file hash matched manifest, matching DLL timestamp/JSON/RUN/uninstaller retained, repeat update no-op. No Windows executable run.
+PASS: application CurrentVersion constant and embedded footer both 1.1.79; embedded AFR channel/source labels present and removed indicator-tooltip strings absent.
