@@ -1,4 +1,9 @@
-<update><version>1.1.71</version><url>https://raw.githubusercontent.com/datlxps013977/dynotest-updates/main/releases/v171/Dynotest_Update.exe</url><sha256>f29f94a6666fc4d9d29cf9851c0029580ad33ee5b0aa8c17232d5f84205d34d7</sha256><size>20723712</size><notes>ver1.1.71
+<update><version>1.1.72</version><url>https://raw.githubusercontent.com/datlxps013977/dynotest-updates/main/releases/v172/Dynotest_Update.exe</url><sha256>41fa260a909788bda20b715045b656b835307166f6896616943621a1f727dfee</sha256><size>20724736</size><notes>ver1.1.72
+- Bấm NGẮT KẾT NỐI cũng giữ nguyên chart và active, chỉ dừng phiên kết nối phần cứng.
+- Kết nối lại sẽ đồng bộ BIT CHART ON sau status hợp lệ; BIT OFF đã xác nhận và nút X vẫn đóng chart. Thoát ứng dụng vẫn đóng cửa sổ phụ.
+- Giữ ba trạng thái tiếng Việt và toàn bộ dữ liệu/chức năng từ v171.
+
+ver1.1.71
 - Thử kết nối lại không đóng chart đang mở; giữ active và đồng bộ BIT4 ON khi nhận lại status. Ngắt kết nối chủ động vẫn giữ cách đóng chart cũ.
 - Trạng thái kết nối Dyno chỉ hiển thị ĐANG KẾT NỐI / ĐÃ KẾT NỐI / NGẮT KẾT NỐI.
 - Bỏ mã packet và nội dung kỹ thuật 4001/1002/AUTH/reconnect-error khỏi nhãn trạng thái, kể cả lúc thử lại kết nối và splash.
