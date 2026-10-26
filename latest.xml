@@ -1,4 +1,10 @@
-<update><version>1.1.77</version><url>https://raw.githubusercontent.com/datlxps013977/dynotest-updates/main/releases/v177/Dynotest_Update.exe</url><sha256>12cb39c4130907d6c5b5a5f46e8df7e5012aa1c38ae594c1ee73fba03adea520</sha256><size>20734464</size><notes>ver1.1.77
+<update><version>1.1.78</version><url>https://raw.githubusercontent.com/datlxps013977/dynotest-updates/main/releases/v178/Dynotest_Update.exe</url><sha256>ae5c99e730851f09fa9e5fb7599826beeaa56e9cad6d9e844f105764fa782d72</sha256><size>20737536</size><notes>ver1.1.78
+- Thêm bốn LED CPU xanh lá, AFR tím, RPM vàng cam và SPEED xanh cyan giữa hai đồng hồ. Theo dữ liệu phần cứng gốc; giữ sáng tối đa 1 giây chống nháy, tắt khi mất dữ liệu/ngắt kết nối. CPU thể hiện luồng dữ liệu, không phải mức sử dụng CPU máy tính.
+- Nền header/footer màn hình chính dùng carbon đan chéo 45 độ, sợi nhỏ hơn phần giữa, cạnh sáng nhẹ và bóng chìm tông đen xanh.
+- Giữ carbon phần giữa, kích thước/bố cục/chữ và điều khiển; nền vector tĩnh không thêm timer hay ảnh ngoài.
+- Giữ thao tác mở ECU từ trạng thái, màu viền kết nối và dữ liệu JSON/RUN.
+
+ver1.1.77
 - Bỏ nút mở lại ECU riêng. Bấm trực tiếp CHƯA BẬT PHẦN MỀM ECU để mở đúng EXE đã chọn; hỗ trợ Enter/Space, chỉ cho mở khi phần mềm đã tắt.
 - Giữ Auto Tune và target/correction, chống bấm trùng, khóa phản hồi cũ, cho thử lại nếu mở lỗi.
 - Nút KẾT NỐI có viền xanh lá, NGẮT KẾT NỐI có viền đỏ đồng bộ chữ/icon; hover vẫn giữ đúng màu viền.
