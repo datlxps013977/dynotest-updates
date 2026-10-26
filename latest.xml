@@ -1,4 +1,10 @@
-<update><version>1.1.72</version><url>https://raw.githubusercontent.com/datlxps013977/dynotest-updates/main/releases/v172/Dynotest_Update.exe</url><sha256>41fa260a909788bda20b715045b656b835307166f6896616943621a1f727dfee</sha256><size>20724736</size><notes>ver1.1.72
+<update><version>1.1.73</version><url>https://raw.githubusercontent.com/datlxps013977/dynotest-updates/main/releases/v173/Dynotest_Update.exe</url><sha256>7453f700030d48950a33caa40819ae64d93c99e369b090d8079d8db23e890203</sha256><size>20727296</size><notes>ver1.1.73
+- Đổi phím tắt: F9 đo công suất, F10 dừng đo, F11 ghi AFR, F12 ngừng ghi. Nhận tại cửa sổ, gồm chart/ô nhập; giữ điều kiện đo, chống lặp và Alt+F4.
+- AFR live ghi riêng áp dụng smoothing ChartDyno trên bản sao X/Y trước khi giảm điểm vẽ; hover cùng dữ liệu đã làm mượt. Giữ mẫu gốc và màu cyan, không lọc RUN hai lần.
+- HP/TOQ dùng chung timer hiển thị, bộ lọc và nhịp SPEED (mặc định 120 ms / 10 lần mỗi giây); số và thanh dùng cùng nguồn lọc. Không đổi RAW, MAX hoặc RUN.
+- Sửa cầu nối Ultra Pro1 10.3.1.3: RT nằm ở TepyDeyModule, không phải TypeDef. Bộ ECU sửa DLL riêng đi kèm; cập nhật Dyno không tự thay DLL trong thư mục ECU.
+
+ver1.1.72
 - Bấm NGẮT KẾT NỐI cũng giữ nguyên chart và active, chỉ dừng phiên kết nối phần cứng.
 - Kết nối lại sẽ đồng bộ BIT CHART ON sau status hợp lệ; BIT OFF đã xác nhận và nút X vẫn đóng chart. Thoát ứng dụng vẫn đóng cửa sổ phụ.
 - Giữ ba trạng thái tiếng Việt và toàn bộ dữ liệu/chức năng từ v171.
