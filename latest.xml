@@ -1,4 +1,10 @@
-<update><version>1.1.70</version><url>https://raw.githubusercontent.com/datlxps013977/dynotest-updates/main/releases/v170/Dynotest_Update.exe</url><sha256>7a971ba0a90540ea7c45bb875900a9ffc80fd307ba3683b886fe11aaa68c7939</sha256><size>20722176</size><notes>ver1.1.70
+<update><version>1.1.71</version><url>https://raw.githubusercontent.com/datlxps013977/dynotest-updates/main/releases/v171/Dynotest_Update.exe</url><sha256>f29f94a6666fc4d9d29cf9851c0029580ad33ee5b0aa8c17232d5f84205d34d7</sha256><size>20723712</size><notes>ver1.1.71
+- Thử kết nối lại không đóng chart đang mở; giữ active và đồng bộ BIT4 ON khi nhận lại status. Ngắt kết nối chủ động vẫn giữ cách đóng chart cũ.
+- Trạng thái kết nối Dyno chỉ hiển thị ĐANG KẾT NỐI / ĐÃ KẾT NỐI / NGẮT KẾT NỐI.
+- Bỏ mã packet và nội dung kỹ thuật 4001/1002/AUTH/reconnect-error khỏi nhãn trạng thái, kể cả lúc thử lại kết nối và splash.
+- Giữ chỉ báo màu vàng/xanh/đỏ, thông tin COM bên dưới và toàn bộ luồng kết nối/BIT/đo từ v170.
+
+ver1.1.70
 - Menu CHART mở ngay, không chờ kết nối/status/BIT4; bấm lại đưa cửa sổ đang mở lên trước.
 - Active CHART chỉ theo cửa sổ mở/đóng. Status OFF lặp lại không đóng chart vừa mở bằng menu trong lúc chờ xác nhận.
 - Nếu mở chart offline, sau kết nối và nhận status đầu tiên gửi 4008 với BIT4 ON, giữ các bit khác. Không gửi trước khi biết status, không lặp lệnh mỗi frame.
